@@ -3,6 +3,7 @@ $lightgreen: #99c745;
 
 body.live .container article {
 	background: url('/images/double.png') right top repeat-y;
+	padding-right: 36px;
 }
 
 article,
@@ -10,7 +11,6 @@ aside {
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
-
 article h1 {
   color: $darkgreen;
 	font-family: "kulturista-web", serif;
@@ -45,6 +45,10 @@ article img {
 	margin-top: 4px;
 	margin-left: -70px;
 	margin-right: 25px;
+}
+
+aside {
+	padding-left: 36px;
 }
 
 aside h3 {
@@ -83,7 +87,8 @@ a {
 
     /* Note: Design for a width of 320px */
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 500px) {
+    
         .container { width: 300px; }
         .columns, .column { margin: 0; }
 
