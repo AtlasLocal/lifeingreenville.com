@@ -5,7 +5,7 @@
   </article>
   
   <% if File.exist?("views/asides/#{category}/#{name}.md") %>
-  <aside class="row span3 offset1">
+  <aside class="row span3">
     <%= markdown "asides/#{category}/#{name}".to_sym %>
   </aside>
   <% end %>
