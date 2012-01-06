@@ -9,6 +9,10 @@
       <%= markdown "asides/#{category}/#{name}".to_sym %>
   <% rescue Errno::ENOENT %>
   <% end %>
+  <% if File.exist?("views/asides/#{category}/#{name}.md") %>
+  <aside>
+    <%= markdown "asides/#{category}/#{name}".to_sym %>
   </aside>
+  <% end %>
 
 <%= erb :'shared/footer' %>
