@@ -1,4 +1,5 @@
-article {
+article,
+aside {
 	margin-top: 35px;
 }
 
@@ -30,4 +31,12 @@ article img {
 	margin-top: 4px;
 	margin-left: -70px;
 	margin-right: 25px;
+}
+
+aside h3 {
+	color: #99c745;
+	font-family: "kulturista-web", serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
 }
