@@ -25,7 +25,7 @@ nav {
 		padding: 0px;
 		margin: 0px;
 		position: absolute;
-		right: 80px;
+		right: 20px;
 		top: 30px;
 		
 		li {
@@ -46,6 +46,12 @@ body.live a.life,
 body.work a.work {
 	color: #3f6230;
 	text-decoration: underline;
+}
+
+#visit {
+	position: absolute;
+	right: 0px;
+	top: 140px;
 }
 
 
@@ -164,20 +170,7 @@ span.credit {
 }
 
 
-/* #Tablet (Portrait)
-================================================== */
-
-/* Note: Design for a width of 768px */
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-
-}
-
-
-/*  #Mobile (Portrait)
-================================================== */
-
-/* Note: Design for a width of 320px */
+/* Note: Mobile Phone (portrait) */
 
 @media only screen and (max-width: 500px) {
 	nav {
@@ -217,17 +210,3 @@ span.credit {
 		}
 	}	
 }
-
-
-/* #Mobile (Landscape)
-================================================== */
-
-/* Note: Design for a width of 480px */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-
-}
-
-
-
