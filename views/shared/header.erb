@@ -5,6 +5,7 @@
     <title>Life in Greenville</title>
     <meta name="description" content="">
     <meta name="author" content="CoWork Greenville">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
 
     <!-- HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -32,14 +33,14 @@
 
   </head>
 
-  <body>
+  <body class="<%= params[:category] %>">
 
   <nav>
     <div class="container">
       <a href="/"><h1>Life in Greenville South Carolina</h1></a>
       <ul>
-        <li><a href="/live" class="current">Live</a></li>
-        <li><a href="/work">Work</a></li>
+        <li><a href="/live" class="life">Life</a></li>
+        <li><a href="/work" class="work">Work</a></li>
       </ul>
     </div>
   </nav>
