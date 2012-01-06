@@ -4,11 +4,10 @@
   <%= yield %>
   </article>
   
+  <% if File.exist?("views/asides/#{category}/#{name}.md") %>
   <aside>
-  <% begin %>
-      <%= markdown "asides/#{category}/#{name}".to_sym %>
-  <% rescue Errno::ENOENT %>
-  <% end %>
+    <%= markdown "asides/#{category}/#{name}".to_sym %>
   </aside>
+  <% end %>
 
 <%= erb :'shared/footer' %>
