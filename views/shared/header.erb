@@ -36,12 +36,12 @@
     <div class="container">
       <a href="/"><h1>Life in Greenville South Carolina</h1></a>
       <ul>
-        <li><a href="#">Life</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="/live">Live</a></li>
+        <li><a href="/work">Work</a></li>
       </ul>
     </div>
   </nav>
-
+  <% if settings.ignore_header == false %>
   <header>
     <div class="container">
       <div class="headline">
@@ -53,5 +53,6 @@
       <span class="credit">Photo by <a href="#">Getz Creative</a></span>
     </div>
   </header>
+  <% end %>
 
   <div class="container main">
