@@ -31,6 +31,7 @@ nav {
 		li {
 			display: inline-block;
 			a {
+				font-style: normal;
 				font-weight: 600;
 				color: #99c64d;
 				font-size: 1.4em;
@@ -189,7 +190,8 @@ span.credit {
 		}
 
 		ul {
-			right: 40px;			
+			top: 40px;
+			right: 20px;			
 		}
 	}
 	header  {
