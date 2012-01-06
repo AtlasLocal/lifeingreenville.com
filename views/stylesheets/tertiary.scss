@@ -1,10 +1,13 @@
+$darkgreen: #3f6230;
+$lightgreen: #99c745;
+
 article,
 aside {
 	margin-top: 35px;
 }
 
 article h1 {
-  color: #3f6230;
+  color: $darkgreen;
 	font-family: "kulturista-web", serif;
 	font-weight: 600;
 	font-style: normal;
@@ -20,6 +23,12 @@ article > h2 {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+
+article p {
+	margin-bottom: 15px;
 }
 
 article img {
@@ -34,7 +43,7 @@ article img {
 }
 
 aside h3 {
-	color: #99c745;
+	color: $lightgreen;
 	font-family: "kulturista-web", serif;
 	font-weight: 700;
 	font-style: normal;
@@ -43,4 +52,11 @@ aside h3 {
 
 aside li {
 	list-style: none;
+}
+
+a {
+	font-family: "kulturista-web", serif;
+	font-weight: 600;
+	font-style: italic;
+	color: $darkgreen;
 }
