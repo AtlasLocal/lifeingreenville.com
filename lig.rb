@@ -4,6 +4,24 @@ require 'sass'
 require 'compass'
 require 'rdiscount'
 
+# class Tools < Sinatra::Base
+# # helpers do
+#   # def initialize
+#   #   @ignore_header = false
+#   # end
+
+#   # def ignore_header
+#   #   return @ignore_header
+#   # end
+
+#   # def ignore_header=(val)
+#   #   @ignore_header = val unless val.nil?
+#   # end
+
+#   attr :ignore_header, false
+
+# end
+
 configure do
   Compass.add_project_configuration(File.join(Sinatra::Application.root, 'config', 'compass.config'))
 end
@@ -12,7 +30,12 @@ configure :production do
   # require 'newrelic_rpm'
 end
 
+before do
+  set :ignore_header, false
+end
+
 get '/' do
+  set :ignore_header, true
   erb :index
 end
 
