@@ -1,5 +1,100 @@
 footer {
+  
   border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 4px double #ccc;
   margin: 0;
+  padding: 0;
+  
+  h3 {
+    color: #99c745;
+    font-size: 215%;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  
+  a {
+    border-bottom: 1px solid #AEE198;
+    color: #3f6230;
+    font-style: italic;
+    font-weight: 600;
+    
+    &:hover {
+      text-decoration: none; }
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0; }
+    
+  li {
+    margin-bottom: 9px; }
+  
+  #toggle {
+    border-top: 1px solid #d4d5d0;
+    border-bottom: 1px solid #d4d5d0;
+    color: #97c93c;
+    font-size: 200%;
+    font-weight: bold;
+    height: 60px;
+    position: relative;
+    
+    &:before {
+//      background: url('/images/footer_border_top.png') repeat-x top left;
+//      content: "";
+//      height: 26px;
+//      position: absolute;
+//      top: 1px;
+//      width: 100%;
+    }
+    
+    div { 
+      line-height: 60px;
+    }
+  }
+  
+  #footer_nav {
+    border-top: 4px double #e5e5e5;
+    border-bottom: 4px double #e5e5e5;
+    padding: 30px 0;
+  }
+  
+  #cowork_credit {
+    border-left: 4px double #e5e5e5;
+    color: #696969;
+    height: 175px;
+    padding-left: 30px;
+    
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  
+  #site_credits {
+    padding: 30px 0;
+
+    p {
+      color: #696969;
+      float: left;
+      width: 275px;
+      
+      &.first {
+        border-right: 1px solid #e5e5e5;
+        margin-right: 20px; }
+    }
+  }
+  
+  /* For modern browsers */
+  .cf:before,
+  .cf:after {
+      content:"";
+      display:table;
+  }
+
+  .cf:after {
+      clear:both;
+  }
+
+  /* For IE 6/7 (trigger hasLayout) */
+  .cf {
+      zoom:1;
+  }
 }
