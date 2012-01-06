@@ -4,6 +4,7 @@ $lightgreen: #99c745;
 article,
 aside {
 	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 article h1 {
@@ -52,6 +53,14 @@ aside h3 {
 
 aside li {
 	list-style: none;
+}
+
+aside blockquote {
+	border-left: none;
+	padding-left: 0;
+	color: $darkgreen;
+	font-family: "kulturista-web",serif;
+	font-weight: 400;
 }
 
 a {
