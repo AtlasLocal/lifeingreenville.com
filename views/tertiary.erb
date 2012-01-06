@@ -1,9 +1,14 @@
 <%= erb :'shared/header' %>
 
-  <article>
+  <article class="row span10">
   <%= yield %>
   </article>
   
+  <aside class="row span3 offset1">
+  <% begin %>
+      <%= markdown "asides/#{category}/#{name}".to_sym %>
+  <% rescue Errno::ENOENT %>
+  <% end %>
   <% if File.exist?("views/asides/#{category}/#{name}.md") %>
   <aside>
     <%= markdown "asides/#{category}/#{name}".to_sym %>
