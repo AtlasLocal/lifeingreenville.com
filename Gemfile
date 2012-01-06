@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+gem 'sinatra'
+gem 'thin'
+gem 'sass'
+gem 'compass_twitter_bootstrap'
+gem 'rdiscount'

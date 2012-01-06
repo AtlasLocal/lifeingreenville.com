@@ -1,0 +1,14 @@
+<%= erb :'shared/header' %>
+
+  <article>
+  <%= yield %>
+  </article>
+  
+  <aside>
+  <% begin %>
+      <%= markdown "asides/#{category}/#{name}".to_sym %>
+  <% rescue Errno::ENOENT %>
+  <% end %>
+  </aside>
+
+<%= erb :'shared/footer' %>
