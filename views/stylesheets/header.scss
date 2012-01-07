@@ -48,11 +48,53 @@ body.work a.work {
 	text-decoration: underline;
 }
 
-#visit {
+a#visit {
+	z-index: 10000;
+	display: block;
 	position: absolute;
-	right: 0px;
+	right: -190px;
 	top: 140px;
+	height: 50px;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-style: normal;
+	line-height: 50px;
+	padding-left: 74px;
+	padding-right: 40px;
+
+	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 225px center;
+
+	overflow: hidden;
+
+	-webkit-border-top-left-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;	
+
+	img {
+		position: absolute;
+		top: 0px;
+		left: 1px;
+		z-index: 1;
+	}
+
+
 }
+
+a#visit:hover,
+a#visit:active {
+	right: 0px;
+}
+
+
 
 
 header {
@@ -173,6 +215,7 @@ span.credit {
 /* Note: Mobile Phone (portrait) */
 
 @media only screen and (max-width: 500px) {
+
 	nav {
 
 		h1 {
