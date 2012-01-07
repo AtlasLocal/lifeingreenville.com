@@ -13,22 +13,22 @@
     .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
     .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
 
-    .container .one.column                      { width: 28px; }
-    .container .two.columns                     { width: 76px; }
-    .container .three.columns                   { width: 124px; }
-    .container .four.columns                    { width: 172px; }
-    .container .five.columns                    { width: 220px; }
-    .container .six.columns                     { width: 268px; }
-    .container .seven.columns                   { width: 316px; }
-    .container .eight.columns                   { width: 364px; }
-    .container .nine.columns                    { width: 412px; }
-    .container .ten.columns                     { width: 460px; }
-    .container .eleven.columns                  { width: 508px; }
-    .container .twelve.columns                  { width: 556px; }
-    .container .thirteen.columns                { width: 604px; }
-    .container .fourteen.columns                { width: 652px; }
-    .container .fifteen.columns                 { width: 700px; }
-    .container .sixteen.columns                 { width: 748px; }
+    .container .span1			                      { width: 28px; }
+    .container .span2			                      { width: 76px; }
+    .container .span3				                    { width: 124px; }
+    .container .span4			                      { width: 172px; }
+    .container .span5			                      { width: 220px; }
+    .container .span6			                      { width: 268px; }
+    .container .span7				                    { width: 316px; }
+    .container .span8				                    { width: 364px; }
+    .container .span9			                      { width: 412px; }
+    .container .span10		                      { width: 460px; }
+    .container .span11			                    { width: 508px; }
+    .container .span12			                    { width: 556px; }
+    .container .span13				                  { width: 604px; }
+    .container .span14					                { width: 652px; }
+    .container .span15				                  { width: 700px; }
+    .container .span16				                  { width: 748px; }
 
     .container .one-third.column                { width: 236px; }
     .container .two-thirds.column               { width: 492px; }
