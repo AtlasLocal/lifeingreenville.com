@@ -55,14 +55,14 @@ a#visit {
 	position: absolute;
 	right: 0px;
 	top: 140px;
-	height: 50px;
+	height: 70px;
 	color: #fff;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-style: normal;
-	line-height: 50px;
+	line-height: 70px;
+	text-indent: -180px;
 	
-
 	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 225px center;
 
 	overflow: hidden;
@@ -81,8 +81,8 @@ a#visit {
 
 	img {
 		position: absolute;
-		top: 0px;
-		left: 1px;
+		top: 10px;
+		left: 10px;
 		z-index: 1;
 	}
 
@@ -93,7 +93,8 @@ a#visit:hover,
 a#visit:active {
 	right: 0px;
 	width: 180px;
-	padding-left: 72px;
+	padding-left: 82px;
+	text-indent: 0px;
 }
 
 
