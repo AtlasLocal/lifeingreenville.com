@@ -1,8 +1,8 @@
 # Inventive
 
-## Craftsmanship & technical ingenuity
+## Craftsmanship & Technical Ingenuity
 
-You might say Greenville is a Southern anomaly: a hotbed of technical entrepreneurship and creative talent. If you’re looking to work on something meaningful, something unique, Greenville is the perfect place to start.
+Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
 
 ### A Community of Makers
 
