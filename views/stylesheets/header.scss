@@ -1,3 +1,6 @@
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+
 img { max-width: 100%; }
 
 
@@ -63,21 +66,15 @@ a#visit {
 	line-height: 70px;
 	text-indent: -180px;
 	
-	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 225px center;
+	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 235px center;
 
 	overflow: hidden;
 
-	-webkit-border-top-left-radius: 50px;
-	-webkit-border-bottom-left-radius: 50px;
-	-moz-border-radius-topleft: 50px;
-	-moz-border-radius-bottomleft: 50px;
-	border-top-left-radius: 50px;
-	border-bottom-left-radius: 50px;
+	@include border-top-left-radius(50px);
+	@include border-bottom-left-radius(50px);
 
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;	
+	@include transition(all);
+	@include transition-duration(0.3s);
 
 	img {
 		position: absolute;
@@ -94,34 +91,22 @@ a#visit:active {
 	right: 0px;
 	width: 180px;
 	padding-left: 82px;
+	padding-right: 10px;
 	text-indent: 0px;
 }
 
 
-
-
 header {
 	font-family: "kulturista-web", serif;
-	height: 450px;
 	background-position: 50% 50%;
 	background-color: #000;
-	/* background-size: cover; */
 	width: 100%;
 	
 	margin-top: 58px;
 	color: #fff;
 	
-
-	/*height: 50%;*/
-	/*min-height: 400px;*/
-
-	height: 500px;
-
-    // -webkit-transition: all .3s ease-in-out;
-    // -moz-transition: all .3s ease-in-out;
-    // -o-transition: all .3s ease-in-out;
-    // -ms-transition: all .3s ease-in-out;	
-	
+	@include transition(height);
+	@include transition-duration(0.3s);
 
 	.container {
 		min-height: 400px;		
@@ -148,19 +133,17 @@ div.headline {
 		text-transform: uppercase;
 		line-height: 1em;
 		margin-bottom: 0px;	
-	    -webkit-transition: all .3s ease-in-out;
-	    -moz-transition: all .3s ease-in-out;
-	    -o-transition: all .3s ease-in-out;
-	    -ms-transition: all .3s ease-in-out;				
+	    -webkit-transition: font-size .3s ease-in-out;
+	    -moz-transition: font-size .3s ease-in-out;
+	    -o-transition: font-size .3s ease-in-out;
+	    -ms-transition: font-size .3s ease-in-out;				
 	}
 
 	h1 {
 		display: inline-block;
-		font-size: 10em;
 	}
 
 	h2 {
-		font-size: 4.5em;
 		font-style: normal;
 		font-weight: 600;
 	}
@@ -168,7 +151,6 @@ div.headline {
 	h3 {
 		color: #97c93c;
 		text-transform: uppercase;
-		font-size: 2em;
 		font-weight: 400;
 		font-style: italic;
 		background-color: rgba(0,0,0,0.5);

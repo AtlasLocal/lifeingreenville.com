@@ -1,4 +1,5 @@
 $(document).ready ->
+	return if $.browser.mobile
 	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560
@@ -7,15 +8,15 @@ $(document).ready ->
 		if width <= 500
 			bannerHeight = 400
 		bgHeight = bannerHeight * 1.2
-		offset = ($(window).scrollTop()/$(document).height()) * 260
+		offset = ($(window).scrollTop()/$(document).height()) * 240
 		bannerVerticalPos = ((bannerHeight-bgHeight)/2) + offset
 		$("header").css
 			'background-position': "50% #{bannerVerticalPos}px"
-	scrollBannerBG()
+	
 	$(window).bind "scroll", (e)->
 		scrollBannerBG()
 	
 	$(window).bind 'resize', (e)->
 		scrollBannerBG()
 	
-	$('#wrapper').bind "touchmove", (e)-> scrollBannerBG()
+	scrollBannerBG()
