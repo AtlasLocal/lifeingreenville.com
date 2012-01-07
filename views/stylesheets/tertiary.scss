@@ -1,6 +1,13 @@
 $darkgreen: #3f6230;
 $lightgreen: #99c745;
 
+body.life .container {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+}
+
 body.life .container article {
 	background: url('/images/double.png') right top repeat-y;
 	padding-right: 36px;
@@ -38,12 +45,17 @@ article p {
 
 article img {
 	float: left;
+	width: 250px;
 	height: 150px;
 	border: 8px solid rgba(0,0,0,.1);
 	margin-bottom: 43px;
 	margin-top: 4px;
 	margin-left: -70px;
 	margin-right: 25px;
+	    -webkit-transition: all .3s ease-in-out;
+	    -moz-transition: all .3s ease-in-out;
+	    -o-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;	
 }
 
 aside {

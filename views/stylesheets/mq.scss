@@ -7,7 +7,7 @@
 /* Note: Design for a width of 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .container                                  { width: 768px; }
+    .container                                  { width: 778px; }
     .container .column,
     .container .columns                         { margin-left: 10px; margin-right: 10px;  }
     .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
@@ -30,25 +30,30 @@
     .container .span15				                  { width: 700px; }
     .container .span16				                  { width: 748px; }
 
-    .container .span-one-third                { width: 236px; }
-    .container .span-two-thirds               { width: 492px; }
+    .container .span-one-third                	{ width: 236px; }
+    .container .span-two-thirds               	{ width: 492px; }
 
     /* Offsets */
     .container .offset1			                    { padding-left: 48px; }
-    .container .offset2                   { padding-left: 96px; }
-    .container .offset3                 { padding-left: 144px; }
-    .container .offset4                  { padding-left: 192px; }
-    .container .offset5                  { padding-left: 240px; }
-    .container .offset6                   { padding-left: 288px; }
-    .container .offset7                 { padding-left: 336px; }
-    .container .offset8                 { padding-left: 348px; }
-    .container .offset9                  { padding-left: 432px; }
-    .container .offset10                   { padding-left: 480px; }
-    .container .offset11                { padding-left: 528px; }
-    .container .offset12                { padding-left: 576px; }
-    .container .offset13              { padding-left: 624px; }
-    .container .offset14              { padding-left: 672px; }
-    .container .offset15               { padding-left: 720px; }
+    .container .offset2                   			{ padding-left: 96px; }
+    .container .offset3                 				{ padding-left: 144px; }
+    .container .offset4                  				{ padding-left: 192px; }
+    .container .offset5                  				{ padding-left: 240px; }
+    .container .offset6                   			{ padding-left: 288px; }
+    .container .offset7                 				{ padding-left: 336px; }
+    .container .offset8                 				{ padding-left: 348px; }
+    .container .offset9                  				{ padding-left: 432px; }
+    .container .offset10                   			{ padding-left: 480px; }
+    .container .offset11                				{ padding-left: 528px; }
+    .container .offset12                				{ padding-left: 576px; }
+    .container .offset13              					{ padding-left: 624px; }
+    .container .offset14              					{ padding-left: 672px; }
+    .container .offset15               					{ padding-left: 720px; }
+    
+		.life .container .offset1 {
+			padding-left: 0;
+		}
+    
 }
 
 
@@ -103,7 +108,7 @@
     .container .offset12,
     .container .offset13,
     .container .offset14,
-    .container .offset15               { padding-left: 0; margin-left: 0; }
+    .container .offset15               				{ padding-left: 0; margin-left: 0; }
 
 		body.life .container article {
 			background: none;
@@ -123,8 +128,9 @@
 		article img {
 	    border: 8px solid rgba(0, 0, 0, 0.1);
 	    float: left;
-	    height: 209px;
-	    margin: 15px 0;
+	    width: 280px;
+	    height: 109px;
+	    margin: 0 0 15px 0;
 		}
 	
 		.container aside {
@@ -214,7 +220,7 @@
     .container .offset12,
     .container .offset13,
     .container .offset14,
-    .container .offset15               { padding-left: 0; margin-left: 0; }
+    .container .offset15               				{ padding-left: 0; margin-left: 0; }
 
 		body.life .container article {
 			background: none;
@@ -230,8 +236,8 @@
 	    float: left;
 			display: block;
 			clear: both;
-	    width: 420px;
-	    height: 180px;
+	    width: 400px;
+	    height: 171px;
 	    margin: 15px 0;
 		}
     
