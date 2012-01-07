@@ -1,5 +1,8 @@
 @import "compass_twitter_bootstrap"; /* Use this to get all of Bootstrap's @mixins and $variables */
 
+$darkgreen: #3f6230;
+$lightgreen: #99c745;
+
 html {
   -webkit-font-smoothing: antialiased;
 }
@@ -46,4 +49,8 @@ a:hover, a.current {
 
 .breadcrumbs {
 	padding: 15px 0;
+}
+
+.breadcrumbs .active {
+	color: $lightgreen;
 }
