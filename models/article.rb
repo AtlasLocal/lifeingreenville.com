@@ -22,7 +22,7 @@ class Article
     self.new(markup, metadata)
   end
   
-  def self.find(catetory, name)
+  def self.find(category, name)
     parse( get_path_for(category, name) )
   end
   
