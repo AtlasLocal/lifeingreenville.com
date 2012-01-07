@@ -1,12 +1,12 @@
 # Inventive
 
-## Craftsmanship & technical ingenuity
+## Craftsmanship & Technical Ingenuity
 
-You might say Greenville is a Southern anomaly: a hotbed of technical entrepreneurship and creative talent. If you’re looking to work on something meaningful, something unique, Greenville is the perfect place to start.
+Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
 
 ### A Community of Makers
 
-Whether you’re looking to join an innovative creative agency such as Brains on Fire or team up with an engineering powerhouse like BMW, Greenville has more than its fair share of big opportunities. Or if joining a profitable craftsman culture with independent creators is more your style, rest assured you’ll be in good company.  You’ll find a diversity of talented artists, designers, illustrators, and creators collaborating throughout Greenville’s downtown area, nearby arts district, and shared work spaces like CoWork Greenville, White Whale Studios, or the NEXT Innovation Center.
+Whether you’re looking to join an innovative agency like Brains on Fire or team up with an engineering powerhouse like BMW, Greenville boasts a disproportionate share of big opportunities. If you're looking for a craftsman culture of independent creators, you're also in good company. A diversity of talented artists, designers, illustrators, and creators collaborate throughout Greenville’s downtown area, nearby arts district and shared work spaces like CoWork Greenville, White Whale Studios and the NEXT Innovation Center.
 
 ### Potential Links and Images
 * Clemson’s Center for Emerging Technologies
@@ -19,7 +19,7 @@ Whether you’re looking to join an innovative creative agency such as Brains on
 
 ### A Unique Opportunity for Startups
 
-Attend TEDx or Greenville Grok and you’ll soon discover something different happening in Greenville. You’ll hear brilliant ideas but more importantly, you’ll see them in action: 
+Great ideas don't just come to Greenville, they're born here too. Attend TEDx or Greenville Grok to hear ideas and see them in action. For example: 
 
 * Zaarly - creating a new way for individuals to buy and sell
 * Proterra - developing the green, “bus of the future”
