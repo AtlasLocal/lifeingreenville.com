@@ -79,4 +79,14 @@ helpers do
     end
   end
   
+  def render_breadcrumb
+    html = '<a href="/">Home</a>'
+    if params[:name]
+      html << " / <a href='/#{params[:category]}'>#{params[:category].capitalize}</a>"
+      html << " / <span class='active'>#{params[:name].capitalize}</span>"
+    elsif params[:category]
+      html << " / <span class='active'>#{params[:category].capitalize}</span>"
+    end
+  end
+  
 end
