@@ -6,6 +6,7 @@
   border-bottom: 4px double #ccc;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   @include transition(all);
   @include transition-duration(0.4s);
   
@@ -24,6 +25,11 @@
     &:hover {
       text-decoration: none; }
   }
+  
+#footer_nav {
+	position: relative;
+	z-index: -100;
+	}
   
   ul {
     list-style: none;
@@ -62,7 +68,7 @@
       @include transition-duration(0.4s);
     }
     &.down #plus-glyph {
-      -webkit-transform: rotate(-180deg);
+      -webkit-transform: rotate(-45deg);
     }
   }
 
