@@ -29,7 +29,7 @@ end
 
 get '/:category' do
   content_type 'text/html', :charset => 'utf-8'
-  markdown ("articles/"+params[:category]).to_sym, :layout => :secondary, :layout_engine => :erb
+  markdown '', :layout => :secondary, :layout_engine => :erb
 end
 
 get '/:category/:name' do
