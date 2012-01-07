@@ -80,15 +80,15 @@
     <div class="container">
 
       <div class="headline">
-        <h1>Life</h1>
+        <h1><%= category.name.capitalize %></h1>
         <span class="forward">/</span>
-        <h2>Uncomplicated</h2>
-        <h3>Culture in Greenville Headline Here</h3>
+        <h2><%= data[:banner_sub_headline] %></h2>
+        <h3><%= data[:banner_tagline] %></h3>
       </div>
       
       <div class="caption">
         <h3>Photo Description:</h3>
-        <p>Chefs at Devereaux's Greenville prepare the evening meal selections.</p>
+        <p><%= data[:banner_image_caption] %></p>
       </div>
       <!-- <span class="credit">Photo Credit: <a href="#">Getz Creative</a></span> -->
     </div>

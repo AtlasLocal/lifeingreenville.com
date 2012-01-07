@@ -1,3 +1,10 @@
+title: Convenient
+category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+category_image: weather.png
+banner_sub_headline: Convenient
+banner_tagline: Example stuff about life here
+banner_image_caption: Hell, yeah, tacos!
+
 # Convenient
 
 ## 15 Minutes to Anywhere
