@@ -56,7 +56,7 @@
 
   </head>
 
-  <body class="<%= params[:category] || 'home'%>">
+  <body class="<%= params[:category] || 'home'%><%= params[:name] ? " page-#{params[:name]}" : nil %>">
   
   <div id="wrapper">
 
