@@ -3,7 +3,7 @@
 ## Tasteful Arts and Entertainment
 
 ### Visual Art
-A rich haven for visual artists, the Greenville community supports many independent studios, several of which have been recognized nationally. Local events highlight the variety and liveliness of the art scene. First Fridays, a monthly evening event in the art-centric Far West End allows artists to open their studios and share their work with the public. Artisphere, a curated open-air art festival, annually draws both local and national artists to downtown Greenville.
+A haven for visual artists, the Greenville community supports many independent studios, some nationally recognized. Local events like First Fridays, highlight the variety and liveliness of the art scene by encouraging artists to open their studios to the public. Once a year, Artisphere, a curated open-air art festival, draws both local and national artists to downtown Greenville.
 
 ![My Image Text](/images/cooking.jpg "Optional title") 
 ### Theatre & Dance
