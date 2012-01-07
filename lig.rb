@@ -3,24 +3,7 @@ require 'sinatra'
 require 'sass'
 require 'compass'
 require 'rdiscount'
-
-# class Tools < Sinatra::Base
-# # helpers do
-#   # def initialize
-#   #   @ignore_header = false
-#   # end
-
-#   # def ignore_header
-#   #   return @ignore_header
-#   # end
-
-#   # def ignore_header=(val)
-#   #   @ignore_header = val unless val.nil?
-#   # end
-
-#   attr :ignore_header, false
-
-# end
+require "sinatra/reloader" if development?
 
 configure do
   Compass.add_project_configuration(File.join(Sinatra::Application.root, 'config', 'compass.config'))
