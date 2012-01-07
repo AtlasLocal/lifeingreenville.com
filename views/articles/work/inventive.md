@@ -19,7 +19,7 @@ Whether you’re looking to join an innovative agency like Brains on Fire or tea
 
 ### A Unique Opportunity for Startups
 
-Attend TEDx or Greenville Grok and you’ll soon discover something different happening in Greenville. You’ll hear brilliant ideas but more importantly, you’ll see them in action: 
+Great ideas don't just come to Greenville, they're born here too. Attend TEDx or Greenville Grok to hear ideas and see them in action. For example: 
 
 * Zaarly - creating a new way for individuals to buy and sell
 * Proterra - developing the green, “bus of the future”
