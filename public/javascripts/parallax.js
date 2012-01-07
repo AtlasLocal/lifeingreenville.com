@@ -3,18 +3,22 @@
   $(document).ready(function() {
     var scrollBannerBG;
     scrollBannerBG = function() {
-      var bannerHeight, bannerVerticalPos, height, offset, scroll;
-      height = $(document).height();
-      bannerHeight = 500;
-      scroll = $(window).scrollTop();
-      offset = (scroll / height) * 220;
-      bannerVerticalPos = -(bannerHeight / 2) + offset;
+      var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
+      width = $(window).width();
+      bannerHeight = 450;
+      if (width <= 1023) bannerHeight = 400;
+      bgHeight = bannerHeight * 1.5;
+      offset = ($(window).scrollTop() / $(document).height()) * 220;
+      bannerVerticalPos = ((bannerHeight - bgHeight) / 2) + offset;
       return $("header").css({
         'background-position': "50% " + bannerVerticalPos + "px"
       });
     };
     scrollBannerBG();
-    return $(window).bind("scroll", function(e) {
+    $(window).bind("scroll", function(e) {
+      return scrollBannerBG();
+    });
+    return $(window).bind('resize', function(e) {
       return scrollBannerBG();
     });
   });
