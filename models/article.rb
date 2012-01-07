@@ -2,13 +2,11 @@ class Article
   attr_reader :body, :metadata
   
   def self.parse(file)
-    # d = File.join(Dir.pwd, "views/#{file}.md")
     contents = File.open(file).read
   # rescue Errno::ENOENT
     # raise Sinatra::NotFound
   # else
     first_paragraph, remaining = contents.split(/\r?\n\r?\n/, 2)
-    # metadata = CaseInsensitiveHash.new
     metadata = Hash.new
     if metadata?(first_paragraph)
       first_paragraph.split("\n").each do |line|
@@ -17,7 +15,10 @@ class Article
       end
     end
     markup = metadata?(first_paragraph) ? remaining : contents
-    # return {:metadata => metadata, :markup => markup}
+    metadata[:path] = file
+    metadata[:category] = file.split('articles/').last.split('/').first || file.split('articles/').last
+    metadata[:slug] = file.split(metadata[:category]+'/').last.split('.md').first
+    
     self.new(markup, metadata)
   end
   
@@ -46,6 +47,10 @@ class Article
   
   def [](meta)
     @metadata.fetch(meta)
+  end
+  
+  def permalink
+    '/' + @metadata[:category] + '/' + @metadata[:slug]
   end
   
   def title
