@@ -215,12 +215,29 @@
     .container .offset13,
     .container .offset14,
     .container .offset15               { padding-left: 0; margin-left: 0; }
-    
+
+		body.life .container article {
+			background: none;
+			padding-right: 0;
+		}
+
+		article h1 {
+			background: none;
+		}
+
 		article img {
 	    border: 8px solid rgba(0, 0, 0, 0.1);
 	    float: left;
-	    height: 209px;
+			display: block;
+			clear: both;
+	    width: 420px;
+	    height: 180px;
 	    margin: 15px 0;
 		}
+    
+    aside {
+    	padding: 0;
+    	margin: 0;
+    }
     
 }
