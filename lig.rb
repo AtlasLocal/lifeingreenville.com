@@ -32,17 +32,33 @@ end
 get '/:category' do
   content_type 'text/html', :charset => 'utf-8'
   articles = Article.find_all(params[:category])
-  markdown '',
-    :layout => :secondary, :layout_engine => :erb,
-    :locals => { :articles => articles }
+  if articles.any?
+    markdown '',
+      :layout => :secondary, :layout_engine => :erb,
+      :locals => { :articles => articles }
+  else
+    raise Sinatra::NotFound
+  end
 end
 
 get '/:category/:name' do
   content_type 'text/html', :charset => 'utf-8'
   article = Article.find(params[:category], params[:name])
-  markdown article.body,
-    :layout => :tertiary, :layout_engine => :erb,
-    :locals => { :article => article }
+  if article
+    markdown article.body,
+      :layout => :tertiary, :layout_engine => :erb,
+      :locals => { :article => article }
+  else
+    raise Sinatra::NotFound
+  end
+end
+
+not_found do
+  '404 Error, oops!'
+end
+
+error do
+  '500 Error, ugh'
 end
 
 helpers do

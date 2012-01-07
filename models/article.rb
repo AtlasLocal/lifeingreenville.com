@@ -3,9 +3,7 @@ class Article
   
   def self.parse(file)
     contents = File.open(file).read
-  # rescue Errno::ENOENT
-    # raise Sinatra::NotFound
-  # else
+    
     first_paragraph, remaining = contents.split(/\r?\n\r?\n/, 2)
     metadata = Hash.new
     if metadata?(first_paragraph)
@@ -20,6 +18,8 @@ class Article
     metadata[:slug] = file.split(metadata[:category]+'/').last.split('.md').first
     
     self.new(markup, metadata)
+  rescue Errno::ENOENT
+    return nil
   end
   
   def self.find(category, name)
