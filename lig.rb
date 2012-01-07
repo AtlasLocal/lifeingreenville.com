@@ -29,6 +29,11 @@ get '/stylesheets/:name.css' do
   scss(:"stylesheets/#{params[:name]}", Compass.sass_engine_options )
 end
 
+get '/visit' do
+  content_type 'text/html', :charset => 'utf-8'
+  erb :visit, :layout => false
+end
+
 get '/:category' do
   content_type 'text/html', :charset => 'utf-8'
   articles = Article.find_all(params[:category])
