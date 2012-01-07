@@ -6,7 +6,7 @@ Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and cre
 
 ### A Community of Makers
 
-Whether you’re looking to join an innovative creative agency such as Brains on Fire or team up with an engineering powerhouse like BMW, Greenville has more than its fair share of big opportunities. Or if joining a profitable craftsman culture with independent creators is more your style, rest assured you’ll be in good company.  You’ll find a diversity of talented artists, designers, illustrators, and creators collaborating throughout Greenville’s downtown area, nearby arts district, and shared work spaces like CoWork Greenville, White Whale Studios, or the NEXT Innovation Center.
+Whether you’re looking to join an innovative agency like Brains on Fire or team up with an engineering powerhouse like BMW, Greenville boasts a disproportionate share of big opportunities. If you're looking for a craftsman culture of independent creators, you're also in good company. A diversity of talented artists, designers, illustrators, and creators collaborate throughout Greenville’s downtown area, nearby arts district and shared work spaces like CoWork Greenville, White Whale Studios and the NEXT Innovation Center.
 
 ### Potential Links and Images
 * Clemson’s Center for Emerging Technologies
