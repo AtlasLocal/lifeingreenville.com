@@ -10,7 +10,7 @@ A haven for visual artists, the Greenville community supports many independent s
 From community theatre to national tours, Greenville offers a broad performing arts experience. You can find Broadway shows like Les Miserables and The Lion King at The Peace Center. For a unique outdoor theatre experience, check out Shakespeare in the Park, a summer play series performed in Falls Park. Greenville's got you covered, whether a fan of ballet, comedy or interactive theater.
 
 ### Music
-Musical entertainment is plentiful in Greenville.  National acts often tour through the Bi-Lo Center, a major arena outside of downtown. Previous visitors include The Avett Brothers, Josh Groban, Prince, and Guns N’ Roses. The Handlebar, an intimate music venue three blocks from Main Street, hosts local acts and well-known musicians of various genres for affordable shows. Live jazz enthusiasts will enjoy the Brown Street Club, an upscale venue in the heart of downtown.
+Greenville's downtown arena, the Bilo Center, attracts national acts including The Avett Brothers, Josh Groban, Prince and Guns N’ Roses. You can find a more intimate music setting at The Handlebar, just three blocks from Main Street. Digging some live jazz? Head over to the Brown Street Club, an upscale venue in the heart of downtown.
 
 ### Museums
 Greenville is home to many great museums for enrichment and education. Families can engage in fun educational activities at the Children’s Museum. The giant Light Brite and complex waterworks are not to be missed. For art connoisseurs, the Greenville County Museum of Art (free admission) features works from greats such as Andrew Wyeth, Jasper Johns, and Andy Warhol.
