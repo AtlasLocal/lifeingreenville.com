@@ -1,4 +1,5 @@
 @import "compass/css3/transition";
+@import "compass/css3/transform";
 
 #footer {
   height: 77px;
@@ -25,11 +26,6 @@
     &:hover {
       text-decoration: none; }
   }
-  
-#footer_nav {
-	position: relative;
-	z-index: -100;
-	}
   
   ul {
     list-style: none;
@@ -68,11 +64,7 @@
       @include transition-duration(0.4s);
     }
     &.down #plus-glyph {
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-		  -moz-transform: rotate(-45deg);
-		  -o-transform: rotate(-45deg);
-		  -ms-transform: rotate(-45deg);
+    	@include rotate(-45deg);
     }
   }
 
