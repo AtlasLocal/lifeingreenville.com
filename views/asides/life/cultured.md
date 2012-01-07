@@ -11,7 +11,15 @@
 * [Artisphere](http://www.artisphere.us/)
 
 
-### Did You Know?
+### Local Theatre
 
-> Greenville Water judged "Best of the Best" in a recent national survey. 
-> Independent judges rated water from around the country. [Read More](#)
+* [Children’s Theatre](http://www.scchildrenstheatre.org)
+* [Peace Center](http://www.peacecenter.org)
+* [Carolina Ballet Theatre](http://www.carolinaballet.org)
+* [International Ballet](http://internationalballetacademy.net)
+* [Centre Stage](http://www.centrestage.org)
+* [The Warehouse Theatre](http://www.warehousetheatre.com)
+* [Greenville Little Theatre](http://www.greenvillelittletheatre.org)
+* [Upstate Shakespeare Festival](http://upstateshakespearefestival.org)
+* [Greenville Chatauqua](http://greenvillechautauqua.org)
+* [Café & Then Some](http://www.cafeats.com)
