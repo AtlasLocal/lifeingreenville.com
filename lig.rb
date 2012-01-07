@@ -5,6 +5,8 @@ require 'compass'
 require 'rdiscount'
 require "sinatra/reloader" if development?
 
+require './models/article'
+
 configure do
   Compass.add_project_configuration(File.join(Sinatra::Application.root, 'config', 'compass.config'))
 end
@@ -29,11 +31,16 @@ end
 
 get '/:category' do
   content_type 'text/html', :charset => 'utf-8'
-  markdown '', :layout => :secondary, :layout_engine => :erb
+  articles = Article.find_all(params[:category])
+  markdown '',
+    :layout => :secondary, :layout_engine => :erb,
+    :locals => { :category => params[:category], :name => params[:name], :articles => articles }
 end
 
 get '/:category/:name' do
   content_type 'text/html', :charset => 'utf-8'
-  markdown ("articles/"+params[:category]+"/"+params[:name]).to_sym, :layout => :tertiary, :layout_engine => :erb,
-    :locals => { :category => params[:category], :name => params[:name] }
+  article = Article.find(params[:category], params[:name])
+  markdown article[:markup],
+    :layout => :tertiary, :layout_engine => :erb,
+    :locals => { :category => params[:category], :name => params[:name] }.merge( article[:metadata] )
 end

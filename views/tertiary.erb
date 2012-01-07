@@ -1,7 +1,7 @@
-<%= erb :'shared/header' %>
+<%= erb :'shared/header', :locals => locals %>
 
   <article class="row span10 offset1">
-  <%= yield %>
+    <%= yield %>
   </article>
   
   <% if File.exist?("views/asides/#{category}/#{name}.md") %>
@@ -10,4 +10,4 @@
   </aside>
   <% end %>
 
-<%= erb :'shared/footer' %>
+<%= erb :'shared/footer', :locals => locals %>
