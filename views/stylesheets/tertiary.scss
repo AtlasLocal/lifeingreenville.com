@@ -48,7 +48,7 @@ article img {
 }
 
 aside {
-	padding-left: 36px;
+	padding-left: 4px;
 }
 
 aside h3 {
@@ -61,13 +61,15 @@ aside h3 {
 
 aside li {
 	list-style: none;
+	color: $darkgreen;
+	font-style: italic;
+	font-family: "kulturista-web",serif;
 }
 
 aside blockquote {
 	border-left: none;
 	padding-left: 0;
 	color: $darkgreen;
-	font-family: "kulturista-web",serif;
 	font-weight: 400;
 }
 
