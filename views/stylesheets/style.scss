@@ -22,3 +22,19 @@ a:hover, a.current {
 	color: #3f6230;
 	text-decoration: underline;
 }
+
+#video {
+	margin-top: 0px;
+	margin-right: -80px;
+}
+
+
+.home {
+	overflow: hidden;
+	#footer {
+		width: 100%;
+	  position: fixed;
+	  bottom: 0;
+	  background: #FFF;
+	}
+}

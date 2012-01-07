@@ -55,14 +55,14 @@ a#visit {
 	position: absolute;
 	right: 0px;
 	top: 140px;
-	height: 50px;
+	height: 70px;
 	color: #fff;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-style: normal;
-	line-height: 50px;
+	line-height: 70px;
+	text-indent: -180px;
 	
-
 	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 225px center;
 
 	overflow: hidden;
@@ -81,8 +81,8 @@ a#visit {
 
 	img {
 		position: absolute;
-		top: 0px;
-		left: 1px;
+		top: 10px;
+		left: 10px;
 		z-index: 1;
 	}
 
@@ -93,7 +93,8 @@ a#visit:hover,
 a#visit:active {
 	right: 0px;
 	width: 180px;
-	padding-left: 72px;
+	padding-left: 82px;
+	text-indent: 0px;
 }
 
 
@@ -101,7 +102,7 @@ a#visit:active {
 
 header {
 	font-family: "kulturista-web", serif;
-	background-image: url(/images/banners/visit.large.jpg);
+	height: 450px;
 	background-position: 50% 50%;
 	background-color: #000;
 	/* background-size: cover; */
@@ -115,6 +116,11 @@ header {
 	/*min-height: 400px;*/
 
 	height: 500px;
+
+    // -webkit-transition: all .3s ease-in-out;
+    // -moz-transition: all .3s ease-in-out;
+    // -o-transition: all .3s ease-in-out;
+    // -ms-transition: all .3s ease-in-out;	
 	
 
 	.container {
@@ -141,7 +147,11 @@ div.headline {
 		color: #fff;
 		text-transform: uppercase;
 		line-height: 1em;
-		margin-bottom: 0px;		
+		margin-bottom: 0px;	
+	    -webkit-transition: all .3s ease-in-out;
+	    -moz-transition: all .3s ease-in-out;
+	    -o-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;				
 	}
 
 	h1 {
@@ -163,7 +173,7 @@ div.headline {
 		font-style: italic;
 		background-color: rgba(0,0,0,0.5);
 		padding: 3px 10px;
-		max-width: 70%;
+		max-width: 75%;
 	}
 	
 	span.forward {
@@ -181,7 +191,7 @@ div.caption {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	width: 30%;
+	width: 25%;
 	text-align: right;
 	color: #fff;
 
@@ -206,52 +216,3 @@ span.credit {
 	}
 }
 
-
-@media only screen and (max-width: 850px) {
-	header div.caption {
-		display: none;
-	}
-}
-
-
-/* Note: Mobile Phone (portrait) */
-
-@media only screen and (max-width: 500px) {
-
-	nav {
-
-		h1 {
-			margin-left: 30px;
-			width: 146px;
-			height: 64px;
-			background-size: cover;
-		}
-
-		ul {
-			top: 40px;
-			right: 20px;			
-		}
-	}
-	header  {
-		height: 400px;
-		div.headline {	
-			text-align: center;
-			h1 {
-				font-size: 5em;
-			}
-			span.forward {
-				font-size: 4em;
-				top: -5px;
-				margin-left: 5px;
-			}
-			h2 {
-				font-size: 2em;
-			}
-			h3 {
-				font-size: 1.5em;
-				line-height: 1.5em;
-				max-width: 100%;
-			}
-		}
-	}	
-}
