@@ -34,15 +34,15 @@ get '/:category' do
   articles = Article.find_all(params[:category])
   markdown '',
     :layout => :secondary, :layout_engine => :erb,
-    :locals => { :category => params[:category], :name => params[:name], :articles => articles }
+    :locals => { :articles => articles }
 end
 
 get '/:category/:name' do
   content_type 'text/html', :charset => 'utf-8'
   article = Article.find(params[:category], params[:name])
-  markdown article[:markup],
+  markdown article.body,
     :layout => :tertiary, :layout_engine => :erb,
-    :locals => { :category => params[:category], :name => params[:name] }.merge( article[:metadata] )
+    :locals => { :article => article }
 end
 
 helpers do
