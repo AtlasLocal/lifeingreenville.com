@@ -17,7 +17,7 @@ $(document).ready(function() {
       $(this).removeClass('down').addClass('up')
     } else {
       $('#footer').css('height', '420px');
-      $.scrollTo('100%', 600);
+      $.scrollTo('+=420px', 600);
       $(this).removeClass('up').addClass('down')
     }
   });
