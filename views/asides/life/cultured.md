@@ -10,10 +10,9 @@
 * [Knack Studio](http://www.knackstudios.com/)
 * [First Fridays](http://www.firstfridaysonline.com/)
 
-
 ### Local Theatre
 
-* [Children’s Theatre](http://www.scchildrenstheatre.org)
+* [Children's Theatre](http://www.scchildrenstheatre.org)
 * [Peace Center](http://www.peacecenter.org)
 * [Carolina Ballet Theatre](http://www.carolinaballet.org)
 * [International Ballet](http://internationalballetacademy.net)
@@ -22,7 +21,7 @@
 * [Greenville Little Theatre](http://www.greenvillelittletheatre.org)
 * [Upstate Shakespeare Festival](http://upstateshakespearefestival.org)
 * [Greenville Chatauqua](http://greenvillechautauqua.org)
-* [Café & Then Some](http://www.cafeats.com)
+* [Cafe & Then Some](http://www.cafeats.com)
 
 ### Local Music
 
@@ -30,14 +29,14 @@
 * [Bi-Lo Center](http://www.bilocenter.com)
 * [The Channel](http://http://www.thechannelonline.org/) (all ages)
 * [Brown Street Club](http://brownstreetclub.com) (jazz)
-* [Smiley’s Acoustic Cafe](http://www.smileysacousticcafe.com)
+* [Smiley's Acoustic Cafe](http://www.smileysacousticcafe.com)
 * [Greenville Symphony](http://www.greenvillesymphony.org)
 * [Greenville Chorale](http://www.greenvillechorale.com)
 
 ### Local Museums
 
 * [Greenville Zoo](http://www.greenvillezoo.com)
-* [Children’s Museum](http://www.tcmgreenvillesc.org)
+* [Children's Museum](http://www.tcmgreenvillesc.org)
 * [Art Museum](http://greenvillemuseum.org)
 * [Bob Jones Art Museum](http://www.bjumg.org)
 * [Shoeless Joe Jackson Museum](http://www.shoelessjoejackson.org)

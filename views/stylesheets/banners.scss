@@ -1,8 +1,8 @@
 /*
 Banner Image Sizes:
-- Large: 1600x700
-- Med: 1000x600
-- Small: 600x600
+- Large: 1800x672
+- Med: 1200x600
+- Small: 600x480
 */
 
 
@@ -14,7 +14,7 @@ Banner Image Sizes:
 	}
 
 	header {
-		background-image: url(http://placehold.it/600x600);
+		background-image: url(/images/banners/work-drive-sm.jpg);
 	}
 
 }
@@ -27,7 +27,7 @@ Banner Image Sizes:
 	}
 
 	header {
-		background-image: url(http://placehold.it/1000x700);
+		background-image: url(/images/banners/work-drive-md.jpg);
 	}
 	
 
@@ -41,8 +41,9 @@ Banner Image Sizes:
 	}
 
 	header {
-		/*background-image: url(/images/banners/visit.large.jpg);*/
-		background-image: url(http://placehold.it/1600x840);
+		background-image: url(/images/banners/work-drive-lg.jpg);
 	}
+
+
 
 }
