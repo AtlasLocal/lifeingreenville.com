@@ -49,10 +49,11 @@ body.work a.work {
 }
 
 a#visit {
+	width: 72px;
 	z-index: 10000;
 	display: block;
 	position: absolute;
-	right: -190px;
+	right: 0px;
 	top: 140px;
 	height: 50px;
 	color: #fff;
@@ -60,8 +61,7 @@ a#visit {
 	text-transform: uppercase;
 	font-style: normal;
 	line-height: 50px;
-	padding-left: 74px;
-	padding-right: 40px;
+	
 
 	background: #98c83b url(/images/visit-arrow-right.png) no-repeat 225px center;
 
@@ -92,6 +92,8 @@ a#visit {
 a#visit:hover,
 a#visit:active {
 	right: 0px;
+	width: 270px;
+	padding-left: 72px;
 }
 
 
