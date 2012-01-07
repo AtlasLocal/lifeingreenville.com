@@ -1,11 +1,13 @@
 @import "compass/css3/transition";
 
-footer {
-  
+#footer {
+  height: 77px;
   border-top: 1px solid #ccc;
   border-bottom: 4px double #ccc;
   margin: 0;
   padding: 0;
+  @include transition(all);
+  @include transition-duration(0.4s);
   
   h3 {
     color: #99c745;
@@ -63,9 +65,8 @@ footer {
       -webkit-transform: rotate(-180deg);
     }
   }
-  
+
   #footer_nav {
-    display: none;
     .row {
       border-top: 4px double #e5e5e5;
       border-bottom: 4px double #e5e5e5;
@@ -96,8 +97,6 @@ footer {
       }
     }
   }
-  
-
   
   /* For modern browsers */
   .cf:before,
