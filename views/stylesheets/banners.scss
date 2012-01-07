@@ -1,0 +1,48 @@
+/*
+Banner Image Sizes:
+- Large: 1600x700
+- Med: 1000x600
+- Small: 600x600
+*/
+
+
+/* iPhone/Mobile Banner Size */
+@media only screen and (max-width: 500px) {
+	
+	header {
+		height: 400px;
+	}
+
+	header {
+		background-image: url(http://placehold.it/600x600);
+	}
+
+}
+
+/* iPad/Small screens */
+@media only screen and (max-width: 1023px) and (min-width: 501px) {
+
+	header {
+		height: 400px;
+	}
+
+	header {
+		background-image: url(http://placehold.it/1000x600);
+	}
+	
+
+}
+
+/* Most desktops/bigger screens */
+@media only screen and (min-width: 1024px) {
+
+	header {
+		height: 450px;
+	}
+
+	header {
+		/*background-image: url(/images/banners/visit.large.jpg);*/
+		background-image: url(http://placehold.it/1600x700);
+	}
+
+}
