@@ -23,11 +23,11 @@ Banner Image Sizes:
 @media only screen and (max-width: 1023px) and (min-width: 501px) {
 
 	header {
-		height: 400px;
+		height: 500px;
 	}
 
 	header {
-		background-image: url(http://placehold.it/1000x600);
+		background-image: url(http://placehold.it/1000x700);
 	}
 	
 
@@ -37,12 +37,12 @@ Banner Image Sizes:
 @media only screen and (min-width: 1024px) {
 
 	header {
-		height: 450px;
+		height: 560px;
 	}
 
 	header {
 		/*background-image: url(/images/banners/visit.large.jpg);*/
-		background-image: url(http://placehold.it/1600x700);
+		background-image: url(http://placehold.it/1600x840);
 	}
 
 }

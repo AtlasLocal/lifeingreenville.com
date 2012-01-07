@@ -5,8 +5,9 @@
     scrollBannerBG = function() {
       var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
       width = $(window).width();
-      bannerHeight = 450;
-      if (width <= 1023) bannerHeight = 400;
+      bannerHeight = 560;
+      if (width <= 1023) bannerHeight = 500;
+      if (width <= 500) bannerHeight = 400;
       bgHeight = bannerHeight * 1.5;
       offset = ($(window).scrollTop() / $(document).height()) * 220;
       bannerVerticalPos = ((bannerHeight - bgHeight) / 2) + offset;
