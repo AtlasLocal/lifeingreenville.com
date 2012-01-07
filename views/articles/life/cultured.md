@@ -16,4 +16,4 @@ Greenville's downtown arena, the Bilo Center, attracts national acts including T
 Greenville is home to many great museums for enrichment and education. Families can engage in fun educational activities at the Children’s Museum. The giant Light Brite and complex waterworks are not to be missed. For art connoisseurs, the Greenville County Museum of Art (free admission) features works from greats such as Andrew Wyeth, Jasper Johns, and Andy Warhol.
 
 ###Festivals & Events 
-Several times each year, Greenvillians gather for festivals celebrating art, food, and community.  Each September, the Indie Craft Parade draws hordes of visitors to this celebration of handmade goods. In October, Fall for Greenville fills Main Street for a weekend of local food, music, rides, and revelry.
+Greenvillians love to celebrate art, food, and community. A couple of examples include the Indie Craft Parade, which draws hordes of visitors to showcase and celebrate handmade goods. Each October, Fall for Greenville packs out the Main Street strip for a weekend of local food, music, rides and revelry.
