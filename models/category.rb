@@ -1,6 +1,5 @@
 class Category
-  
-  # :description, :subtitle, :banner_image
+  attr_reader :name, :metadata
   
   def self.parse(file)
     contents = File.open(file).read
@@ -12,7 +11,7 @@ class Category
         metadata[key.downcase.to_sym] = value.chomp
       end
     end
-    name = file.split('articles/').last
+    name = file.split('articles/').last.split('/.metadata').first
     
     self.new(name, metadata)
   rescue Errno::ENOENT
@@ -23,7 +22,7 @@ class Category
     parse( get_path_for(name) )
   end
   
-  def intitialize(name, metadata)
+  def initialize(name, metadata = {})
     @name = name
     @metadata = metadata
   end
@@ -35,9 +34,9 @@ class Category
   protected
     
     def self.get_path_for(category)
-      if File.exists?( File.join(Dir.pwd, "views/articles/#{name}/.metadata.yml") )
+      # if File.exists?( File.join(Dir.pwd, "views/articles/#{category}/.metadata.yml") )
         File.join(Dir.pwd, "views/articles/#{category}/.metadata.yml")
-      end
+      # end
     end
   
 end

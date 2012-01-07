@@ -30,9 +30,6 @@ class Article
     articles = []
   
     Dir[get_path_for(category)].each do |f|
-      # /Users/seangaffney/Sites/Sinatra/lifeingreenville.com/views/articles/life/example.md
-      # file = f.split('views/').last.split('.md').first
-      # article = parse_file(file)
       article = Article.parse(f)
       articles << article
     end
@@ -67,6 +64,10 @@ class Article
   
   def description?
     @metadata[:description].present?
+  end
+  
+  def category
+    @category ||= Category.find(@metadata[:category])
   end
   
   protected
