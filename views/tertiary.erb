@@ -4,10 +4,6 @@
     <%= yield %>
   </article>
   
-  <% if File.exist?("views/asides/#{category}/#{name}.md") %>
-  <aside class="row span4">
-    <%= markdown "asides/#{category}/#{name}".to_sym %>
-  </aside>
-  <% end %>
+  <%= render_aside %>
 
 <%= erb :'shared/footer', :locals => locals %>

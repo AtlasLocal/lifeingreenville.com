@@ -44,3 +44,15 @@ get '/:category/:name' do
     :layout => :tertiary, :layout_engine => :erb,
     :locals => { :category => params[:category], :name => params[:name] }.merge( article[:metadata] )
 end
+
+helpers do
+  
+  def render_aside
+    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
+      html = '<aside class="row span4">'
+      html << markdown("asides/#{params[:category]}/#{params[:name]}".to_sym)
+      html << '</aside>'
+    end
+  end
+  
+end
