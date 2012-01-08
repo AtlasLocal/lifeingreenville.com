@@ -4,6 +4,11 @@
 	
 	.content{
 		text-align: center;
+		img {
+			border: 8px solid rgba(0,0,0,.1);
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+		}
 	}
 	
 	.span6 .content{

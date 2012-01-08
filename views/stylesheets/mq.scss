@@ -91,7 +91,11 @@
 			background: none;
 		}
     
-    #categories .container .span6 { width: 220px; }
+    #categories {
+    	.container .span6 { 
+    		width: 220px;
+    	}
+    }
     
     #categories .span6 .content { padding: 0; }
     
