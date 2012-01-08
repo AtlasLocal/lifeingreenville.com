@@ -127,16 +127,18 @@ div.headline {
 	position: absolute;
 	bottom: 20px;
 	left: 10px;
+  width: 100%;
 
 	h1, h2 {
 		color: #fff;
 		text-transform: uppercase;
 		line-height: 1em;
-		margin-bottom: 0px;	
-	    -webkit-transition: font-size .3s ease-in-out;
-	    -moz-transition: font-size .3s ease-in-out;
-	    -o-transition: font-size .3s ease-in-out;
-	    -ms-transition: font-size .3s ease-in-out;				
+		margin-bottom: 0px;
+    margin-left: 10px;
+    -webkit-transition: font-size .3s ease-in-out;
+    -moz-transition: font-size .3s ease-in-out;
+    -o-transition: font-size .3s ease-in-out;
+    -ms-transition: font-size .3s ease-in-out;				
 	}
 
 	h1 {
@@ -155,15 +157,15 @@ div.headline {
 		font-style: italic;
 		background-color: rgba(0,0,0,0.5);
 		padding: 3px 10px;
+    margin-left: 5px;
 		max-width: 75%;
 	}
 	
 	span.forward {
-		font-size: 7.5em;
-		margin-left: 20px;
-		font-weight: 600;
+		font-size: 5em;
+    margin: 0 0 0 10px;
+		font-weight: 300;
 		position: relative;
-		top: -10px;
 	}	
 }
 
@@ -183,6 +185,10 @@ div.caption {
 		margin-bottom: 3px;
 		line-height: 1em;
 	}
+  
+  p {
+    margin-bottom: 2px;
+  }
 }
 
 span.credit {

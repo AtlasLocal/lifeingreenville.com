@@ -4,17 +4,21 @@
 @media only screen and (min-width: 500px) {
 
     div.headline {
-        h1 {
-            font-size: 10em;
-        }
+      h1, h2, h3 {
+        display: inline-block;
+      }
+      
+      h1 {
+        font-size: 9.615384615em;
+      }
 
-        h2 {
-            font-size: 4.5em;
-        }
+      h2 {
+        font-size: 5em;
+      }
 
-        h3 {
-            font-size: 2em;
-        }        
+      h3 {
+        font-size: 2em;
+      }        
     }
 }
 
@@ -71,6 +75,17 @@
 		.life .container .offset1 {
 			padding-left: 0;
 		}
+    
+		header  {
+			
+			div.headline {	
+				text-align: center;
+        h2 {
+          display: block;
+        }
+			}
+		}	
+    
  
 		#categories {
 			background: none;
@@ -78,6 +93,8 @@
     
     #categories .container .span6 { width: 220px; }
     #categories .span6 .content { padding: 0; }
+    
+    
 }
 
 
@@ -271,6 +288,17 @@
     	padding: 0;
     	margin: 0;
     }
+    
+		header  {
+			
+			div.headline {	
+				text-align: center;
+        h2 {
+          display: block;
+        }
+			}
+		}	
+    
 
 		#categories { background: none; }
 
