@@ -73,9 +73,11 @@
 		}
  
 		#categories {
-			background: url(/images/categories/cat-dividers-tablet.png) repeat-y 269px 0;
+			background: none;
 		}
     
+    #categories .container .span6 { width: 220px; }
+    #categories .span6 .content { padding: 0; }
 }
 
 
