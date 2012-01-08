@@ -37,6 +37,13 @@ get '/visit' do
   erb :visit, :layout => false
 end
 
+get '/credits' do
+  content_type 'text/html', :charset => 'utf-8'
+  params[:category] = 'credits'
+  set :ignore_header, true
+  erb :credits, :layout => false
+end
+
 get '/:category' do
   content_type 'text/html', :charset => 'utf-8'
   articles = Article.find_all(params[:category])
