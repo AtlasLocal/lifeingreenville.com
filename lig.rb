@@ -32,6 +32,8 @@ end
 
 get '/visit' do
   content_type 'text/html', :charset => 'utf-8'
+  params[:category] = 'visit'
+  set :ignore_header, true
   erb :visit, :layout => false
 end
 
