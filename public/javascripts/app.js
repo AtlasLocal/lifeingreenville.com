@@ -19,25 +19,24 @@ $(document).ready(function() {
     seanFit();
   });
 
-/**
- * Detect user agent so we can correctly set footer height for iphone and ipad.
- */
-var ua = navigator.userAgent
-// TODO: This should be refactored. We really need to get away from these static values. -Mason
-var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "540px" : "420px";
+  /**
+   * Detect user agent so we can correctly set footer height for iphone and ipad.
+   */
+  var ua = navigator.userAgent
+  var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "iPhone" : "other";
+  
   $('#toggle').click(function() {
-    if ($('#footer').height() != '77') {
+    if ($('#footer').height() != '77') {      
       $('#footer').css('height','77px');
       $(this).removeClass('down').addClass('up')
     } else {
-      $('#footer').css('height', detect);
-      if (detect != '540px'){
-      	$.scrollTo('+=420px', 800);
-      } else {
-        // This is not really wise, IMO (Speaking to myself, since I wrote it) -Mason
+      $('#footer').css('height', $('#footer_nav').height()+77+'px');      
+      if (detect != 'iPhone'){      
+      	$.scrollTo('+='+$('#footer_nav').height()+'px', 800);
+      } else {      
         mobileScroll = $('#wrapper').height() - $('#footer').height();
-        $.scrollTo(mobileScroll+'px', 800);
-      }
+        $.scrollTo(mobileScroll+'px', 800);      
+      }      
       $(this).removeClass('up').addClass('down');
     }
   });
