@@ -72,7 +72,6 @@ error do
 end
 
 helpers do
-
   
   def render_aside
   	if File.exist?("views/articles/#{params[:category]}/#{params[:name]}.md")
@@ -80,7 +79,8 @@ helpers do
 	    if params[:name]
 	      html << '<div class="sidenav">'
 	      html << '<h3>See Also</h3>'
-	      html << "<a href='/#{params[:category]}>#{params[:category]}</a>"
+	      # need a loop here. still learning so not sure how to do it.
+	      html << "<a href='/#{params[:category]}'>#{params[:category]}</a>"
 	      html << "</div>"
 	    end
 	    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
