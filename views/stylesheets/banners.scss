@@ -46,6 +46,8 @@ Banner Image Sizes:
 @media only screen and (min-width: 1024px) {
 	header { height: 560px; }
 
+	@include banner('home', 'home-kissing-lg.jpg');
+
 	@include banner('work', 'work-sean-lg.jpg');
 	@include banner('work.page-convenient', 'work-cowork-lg.jpg');
 	@include banner('work.page-inventive', 'work-fridge-lg.jpg');

@@ -15,7 +15,10 @@ body.credits{
 			width: 100%;
 		}
 	}
-	
+	.container article {
+		background: none;
+		padding-right: 0;
+	}
 	article > h2{
 		color: #416331;
 	}
