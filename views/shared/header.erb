@@ -28,8 +28,9 @@
     <link href="/stylesheets/header.css" rel="stylesheet">
     <link href="/stylesheets/category.css" rel="stylesheet">
     <link href="/stylesheets/footer.css" rel="stylesheet">
-    <link href="/stylesheets/mq.css" rel="stylesheet">
     <link href="/stylesheets/visit.css" rel="stylesheet" />
+    <link href="/stylesheets/credits.css" rel="stylesheet" />
+    <link href="/stylesheets/mq.css" rel="stylesheet">
 
     <!--[if IE]>
     <script src="/javascripts/respond.min.js" type="text/javascript" charset="utf-8"></script>
@@ -82,6 +83,14 @@
     <div class="container">
       <div class="headline">
         <h1>Plan A Visit</h1>
+      </div>
+    </div>
+  </header>
+  <% elsif settings.ignore_header == true && params[:category] == 'credits' %>
+  <header>
+    <div class="container">
+      <div class="headline">
+        <h1>Site Credits</h1>
       </div>
     </div>
   </header>
