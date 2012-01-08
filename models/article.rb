@@ -59,11 +59,11 @@ class Article
   end
   
   def description
-    @description ||= @metadata[:description]
+    @description ||= @metadata[:category_tagline]
   end
   
   def description?
-    @metadata[:description].present?
+    @metadata[:category_tagline].present?
   end
   
   def category
