@@ -83,13 +83,21 @@ helpers do
   def render_aside
   	if File.exist?("views/articles/#{params[:category]}/#{params[:name]}.md")
       html = '<aside class="row span4">'
+      
+      # put together the sub nav for other articles in this category
 	    if params[:name]
 	      html << '<div class="sidenav">'
 	      html << '<h3>See Also</h3>'
-	      # need a loop here. still learning so not sure how to do it.
-	      html << "<a href='/#{params[:category]}'>#{params[:category]}</a>"
-	      html << "</div>"
+        articles = Article.find_all(params[:category])
+        articles.each do |a|
+          unless a[:slug] == params[:name]
+            html << "<p><a href='/#{params[:category]}/#{a[:slug]}'>#{a[:title]}</a><p>"
+          end
+        end
+        html << "</div>"
 	    end
+      
+      # get the Aside content
 	    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
 	      html << markdown("asides/#{params[:category]}/#{params[:name]}".to_sym)
 	    end
