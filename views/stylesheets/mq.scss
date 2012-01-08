@@ -92,8 +92,14 @@
 		}
     
     #categories .container .span6 { width: 220px; }
+    
     #categories .span6 .content { padding: 0; }
     
+		#footer_nav {
+			.container .span3 {
+				width: 100px;
+			}
+		}
     
 }
 
@@ -215,7 +221,41 @@
 			}
 		}	
 
-		#categories { background: none; }
+		#categories { 
+			background: none;
+			
+			.span6 .content {
+				padding: 0;
+			}
+			
+		}
+
+		#footer {
+			#footer_nav {
+				.container .span3 {
+					width: 140px;
+				}
+				.row {
+					padding: 18px 0 0 0;
+				}
+				#cowork_credit {
+					width: 100%;
+					height: inherit;
+					clear: left;
+					border-left: none;
+					padding-top: 20px;
+					padding-left: 0;
+				}
+				#site_credits {
+					p {
+						font-size: 10px;
+					}
+					[class*="span"] {
+						margin-left: 0;
+					}
+				}
+			}
+		}
 
 }
 
@@ -299,18 +339,8 @@
 			}
 		}	
     
-		#categories { background: none; }
-		
-		#footer_nav {
-//			.container,
-//			.container .span3 {
-//				width: 100px;
-//				margin: 0 auto;
-//			}
+		#categories { 
+			background: none;
 		}
-		
-    #cowork_credit {
-    	display: none;
-    }
 
 }
