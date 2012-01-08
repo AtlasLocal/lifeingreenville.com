@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  //$("#video").fitVids();
+  $("#video").fitVids();
 
   var seanFit = function() {
     if ($(window).width() < $(window).height()) {
