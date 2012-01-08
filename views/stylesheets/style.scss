@@ -7,7 +7,11 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-html, body { height: 100%; }
+html, body { min-height: 100%; }
+
+body {
+  background: url('/images/bg-texture.png') repeat top center;
+}
 
 #wrapper {
 	overflow: hidden;
@@ -44,6 +48,7 @@ a:hover, a.current {
 
 .crumb-wrapper {
 	width: 100%;
+  background: #fff;
 	border-bottom: 4px double #DADADA;
 }
 
@@ -51,6 +56,15 @@ a:hover, a.current {
 	padding: 15px 0;
 }
 
+.breadcrumbs a, .breadcrumbs span {
+  padding: 0 5px;
+  color: #3F6230;
+}
+
 .breadcrumbs .active {
 	color: $lightgreen;
+  font-family: "kulturista-web", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
 }

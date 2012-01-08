@@ -6,6 +6,14 @@ $(document).ready(function() {
       $('#video').width($(window).height()*2+'px');
     }
   }
+  
+  // var seanFit = function() {
+  //   if ( $(window).width() < ( ($(window).height() - 200) * 1.77) ) {
+  //     $('#video').width($(window).height()*1.77+'px');
+  //   }
+  // }
+  
+  seanFit();
 
   $(window).resize(function(){
     seanFit();

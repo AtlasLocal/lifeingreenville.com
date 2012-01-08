@@ -19,8 +19,7 @@
     <script src="/javascripts/jquery.fitvids.js" type="text/javascript" charset="utf-8"></script>
     <script src="/javascripts/app.js" type="text/javascript" charset="utf-8"></script>
     <script src="/javascripts/parallax.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/detectmobilebrowser.js" type="text/javascript" charset="utf-8"></script>
-    
+    <script src="/javascripts/detectmobilebrowser.js" type="text/javascript" charset="utf-8"></script>    
 
     <!-- Styles -->
     <link href="/stylesheets/style.css" rel="stylesheet">
@@ -30,6 +29,7 @@
     <link href="/stylesheets/category.css" rel="stylesheet">
     <link href="/stylesheets/footer.css" rel="stylesheet">
     <link href="/stylesheets/mq.css" rel="stylesheet">
+    <link href="/stylesheets/visit.css" rel="stylesheet" />
 
     <!--[if IE]>
     <script src="/javascripts/respond.min.js" type="text/javascript" charset="utf-8"></script>
@@ -62,7 +62,7 @@
   
   <div id="wrapper">
 
-  <a id="visit" href="#">
+  <a id="visit" href="/visit">
     <div><img src="/images/trip2.gif">
     Plan a visit
   </a>  
@@ -77,7 +77,15 @@
     </div>
   </nav>
 
-  <% if settings.ignore_header == false %>
+  <% if settings.ignore_header == true && params[:category] == 'visit' %>
+  <header>
+    <div class="container">
+      <div class="headline">
+        <h1>Plan A Visit</h1>
+      </div>
+    </div>
+  </header>
+  <% elsif settings.ignore_header == false %>
   <header>
     <div class="container">
 

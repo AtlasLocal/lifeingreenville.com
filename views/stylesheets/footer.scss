@@ -3,8 +3,9 @@
 
 #footer {
   height: 77px;
+  background: #fff;
   border-top: 1px solid #ccc;
-  border-bottom: 4px double #ccc;
+/*  border-bottom: 4px double #ccc;*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -36,8 +37,8 @@
   
   #toggle {
     width: 100%;
-    border-top: 1px solid #d4d5d0;
-    border-bottom: 1px solid #d4d5d0;
+/*    border-top: 1px solid #d4d5d0;*/
+/*    border-bottom: 1px solid #d4d5d0;*/
     color: #97c93c;
     font-size: 40px;
     line-height: 40px;
@@ -59,12 +60,13 @@
       width: 50px;
       height: 50px;
       text-align: center;
-      margin-left: 10px;
+      margin-left: -5px;
       @include transition(rotation);
-      @include transition-duration(0.4s);
+      @include transition-duration(0.2s);
     }
     &.down #plus-glyph {
-    	@include rotate(-45deg);
+    	@include rotate(45deg);
+      @include transition-duration(0.8s);
     }
   }
 
@@ -86,12 +88,13 @@
     }
     
     #site_credits {
+      border-top: 0;
       padding: 30px 0;
 
       p {
         color: #696969;
         float: left;
-        width: 275px;
+        padding-right: 20px;
         
         &.first {
           border-right: 1px solid #e5e5e5;
