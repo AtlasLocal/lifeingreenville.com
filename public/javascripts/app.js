@@ -20,9 +20,7 @@ $(document).ready(function() {
   });
 
 /**
- * Detect user agent so we can set correct event handler for iphone and ipad.
- * 'event' is used in the main document event handler and the close fuction
- * for our $message boxes.
+ * Detect user agent so we can correctly set footer height for iphone and ipad.
  */
 var ua = navigator.userAgent
 var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "inherit" : "420px";
@@ -33,7 +31,9 @@ var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "inherit" : "420px";
       $(this).removeClass('down').addClass('up')
     } else {
       $('#footer').css('height', detect);
-      $.scrollTo('+=420px', 800);
+      if (detect = 'inherit'){
+      	$.scrollTo('+=420px', 800);
+      }
       $(this).removeClass('up').addClass('down');
     }
   });
