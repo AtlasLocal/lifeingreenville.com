@@ -16,46 +16,46 @@ Banner Image Sizes:
 @media only screen and (max-width: 500px) {
 	header { height: 400px; }
 	
-	@include banner('work', 'work-cowork-sm.jpg');
-	@include banner('work.page-convenient', 'work-sean-sm.jpg');
+	@include banner('work', 'work-sean-sm.jpg');
+	@include banner('work.page-convenient', 'work-cowork-sm.jpg');
 	@include banner('work.page-inventive', 'work-fridge-sm.jpg');
 	@include banner('work.page-prosperous', 'work-fireworks-sm.jpg');
 
 
-	@include banner('life', 'life-festival-sm.jpg');
-	@include banner('life.page-satisfying', 'life-apples-sm.jpg');
-	@include banner('life.page-uncomplicated', 'life-cycling-sm.jpg');
-	@include banner('life.page-cultured', 'life-devereux-sm.jpg');
+	@include banner('life', 'life-drive-sm.jpg');
+	@include banner('life.page-satisfying', 'life-cycling-md.jpg');
+	@include banner('life.page-uncomplicated', 'life-apples-sm.jpg');
+	@include banner('life.page-cultured', 'life-festival-sm.jpg');
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 501px) {
 	header { height: 500px; }
 
-	@include banner('work', 'work-cowork-md.jpg');
-	@include banner('work.page-convenient', 'work-sean-md.jpg');
+	@include banner('work', 'work-sean-md.jpg');
+	@include banner('work.page-convenient', 'work-cowork-md.jpg');
 	@include banner('work.page-inventive', 'work-fridge-md.jpg');
 	@include banner('work.page-prosperous', 'work-fireworks-md.jpg');
 
-	@include banner('life', 'life-festival-md.jpg');
-	@include banner('life.page-satisfying', 'life-apples-md.jpg');
-	@include banner('life.page-uncomplicated', 'life-cycling-md.jpg');
-	@include banner('life.page-cultured', 'life-devereux-md.jpg');
+	@include banner('life', 'life-drive-md.jpg');
+	@include banner('life.page-satisfying', 'life-cycling-md.jpg');
+	@include banner('life.page-uncomplicated', 'life-apples-md.jpg');
+	@include banner('life.page-cultured', 'life-festival-md.jpg');
 
 
 }
 @media only screen and (min-width: 1024px) {
 	header { height: 560px; }
 
-	@include banner('work', 'work-cowork-lg.jpg');
-	@include banner('work.page-convenient', 'work-sean-lg.jpg');
+	@include banner('work', 'work-sean-lg.jpg');
+	@include banner('work.page-convenient', 'work-cowork-lg.jpg');
 	@include banner('work.page-inventive', 'work-fridge-lg.jpg');
 	@include banner('work.page-prosperous', 'work-fireworks-lg.jpg');
 	
 
-	@include banner('life', 'life-festival-lg.jpg');
-	@include banner('life.page-satisfying', 'life-apples-lg.jpg');
-	@include banner('life.page-uncomplicated', 'life-cycling-lg.jpg');
-	@include banner('life.page-cultured', 'life-devereux-lg.jpg');
+	@include banner('life', 'life-drive-lg.jpg');
+	@include banner('life.page-satisfying', 'life-cycling-lg.jpg');
+	@include banner('life.page-uncomplicated', 'life-apples-lg.jpg');
+	@include banner('life.page-cultured', 'life-festival-lg.jpg');
 	
 }
 
