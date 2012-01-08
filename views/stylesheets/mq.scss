@@ -3,23 +3,24 @@
 /* Non-mobile sizes for banner headlines */
 @media only screen and (min-width: 500px) {
 
-    div.headline {
-      h1, h2, h3 {
-        display: inline-block;
-      }
-      
-      h1 {
-        font-size: 9.615384615em;
-      }
-
-      h2 {
-        font-size: 5em;
-      }
-
-      h3 {
-        font-size: 2em;
-      }        
+  div.headline {
+    h1, h2, h3 {
+      display: inline-block;
     }
+    
+    h1 {
+      font-size: 9.615384615em;
+    }
+
+    h2 {
+      font-size: 5em;
+    }
+
+    h3 {
+      font-size: 2em;
+    }        
+  }
+
 }
 
 /* #Tablet (Portrait)
@@ -346,6 +347,23 @@
     
 		#categories { 
 			background: none;
+		}
+		#footer #footer_nav {
+			#cowork_credit {
+				clear: left;
+				border: none;
+				margin-left: 0;
+				padding-top: 24px;
+				padding-left: 0;
+				height: auto;
+				p {
+					margin-right: 125px;
+				}
+			}
+			#site_credits .first {
+				margin-left: 0;
+				margin-right: 0;
+			}
 		}
 
 }
