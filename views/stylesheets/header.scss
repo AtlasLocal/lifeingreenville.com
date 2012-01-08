@@ -204,3 +204,37 @@ span.credit {
 	}
 }
 
+.home {
+	.main {
+		width: 100%;
+		top: 180px;
+		position: absolute;
+		z-index: 100;
+	}
+	h1 {
+		text-transform: uppercase;
+		font-weight: 600px;
+		padding-left: 20px;
+		color: #FFF;
+		font-size: 60px;
+		line-height: 90px;
+		background-color: rgba(0,0,0,0.5);
+	}
+	h2 {
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-style: italic;
+		background-color: rgba(0,0,0,0.5);
+		padding: 3px 10px;
+    margin-left: 5px;
+		max-width: 75%;
+		a {
+			text-transform: uppercase;
+			color: #97c93c;
+			font-weight: bolder;
+			font-style: normal;
+		}
+	}
+}
+
