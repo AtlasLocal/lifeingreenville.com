@@ -1,6 +1,6 @@
 title: Uncomplicated
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-category_image: weather.png
+category_image: cat-life-apples.jpg
 banner_sub_headline: Uncomplicated
 banner_tagline: Example stuff about life here
 banner_image_caption: Hell, yeah, tacos!

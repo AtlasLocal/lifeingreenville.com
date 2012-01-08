@@ -1,6 +1,6 @@
 title: Satisfying
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-category_image: weather.png
+category_image: cat-life-cycling.jpg
 banner_sub_headline: Satisfying
 banner_tagline: Example stuff about life here
 banner_image_caption: Hell, yeah, tacos!

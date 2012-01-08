@@ -1,6 +1,6 @@
 title: Prosperous
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-category_image: weather.png
+category_image: cat-work-fireworks.jpg
 banner_sub_headline: Prosperous
 banner_tagline: Example stuff about life here
 banner_image_caption: Hell, yeah, tacos!
