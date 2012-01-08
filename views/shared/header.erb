@@ -78,7 +78,21 @@
     </div>
   </nav>
 
-  <% if settings.ignore_header == true && params[:category] == 'visit' %>
+  <% if settings.ignore_header == true && params[:name] == nil %>
+  
+  <header class="home">
+    <div class="container">
+      <div class="headline">
+        <a href="/life"><h1>Life</h1></a>
+        <span id="amp">&amp;</span>
+        <a href="/work"><h1>Work</h1></a>
+        <div class="tagline-container">
+          <h3>Find out what it's like to live &amp; work in Greenville, SC</h3>
+        </div>
+        </div>
+    </div>
+  </header>
+  <% elsif settings.ignore_header == true && params[:category] == 'visit' %>
   <header>
     <div class="container">
       <div class="headline">

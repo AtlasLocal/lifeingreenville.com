@@ -4,6 +4,7 @@ Banner Image Sizes:
 - Med: 1200x600
 - Small: 600x480
 */
+@import "compass/css3/border-radius";
 
 
 @mixin banner($page, $img) {
@@ -11,7 +12,6 @@ Banner Image Sizes:
 		background-image: url(/images/banners/#{$img});	
 	}
 }
-
 
 @media only screen and (max-width: 500px) {
 	header { height: 400px; }
@@ -46,7 +46,7 @@ Banner Image Sizes:
 @media only screen and (min-width: 1024px) {
 	header { height: 560px; }
 
-	@include banner('home', 'home-kissing-lg.jpg');
+	//@include banner('home', 'home-kissing-lg.jpg');
 
 	@include banner('work', 'work-sean-lg.jpg');
 	@include banner('work.page-convenient', 'work-cowork-lg.jpg');

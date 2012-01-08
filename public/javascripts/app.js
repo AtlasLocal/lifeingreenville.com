@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#video").fitVids();
+  //$("#video").fitVids();
 
   var seanFit = function() {
     if ($(window).width() < $(window).height()) {
@@ -25,7 +25,7 @@ $(document).ready(function() {
   var ua = navigator.userAgent
   var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "iPhone" : "other";
   
-  $('#toggle').click(function() {
+  $('#toggle').click(function(e) {
     if ($('#footer').height() != '77') {      
       $('#footer').css('height','77px');
       $(this).removeClass('down').addClass('up')

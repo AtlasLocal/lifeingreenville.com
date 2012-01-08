@@ -1,5 +1,6 @@
 $(document).ready ->
 	return if $.browser.mobile
+	return if $('body').hasClas('home')
 	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560

@@ -4,6 +4,9 @@
     if ($.browser.mobile) {
       return;
     }
+    if ($('body').hasClas('home')) {
+      return;
+    }
     scrollBannerBG = function() {
       var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
       width = $(window).width();
@@ -16,9 +19,9 @@
       }
       bgHeight = bannerHeight * 1.2;
       offset = ($(window).scrollTop() / $(document).height()) * 220;
-      // console.log("50% " + bannerVerticalPos + "px");
+      console.log("50% " + bannerVerticalPos + "px");
       bannerVerticalPos = Math.floor(((bannerHeight - bgHeight) / 2) + offset);
-      // console.log("bannerVerticalPos:", "50% " + bannerVerticalPos + "px");
+      console.log("bannerVerticalPos:", "50% " + bannerVerticalPos + "px");
       return $("header").css({
         'background-position': "50% " + bannerVerticalPos + "px"
       });

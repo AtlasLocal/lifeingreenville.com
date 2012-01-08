@@ -114,7 +114,6 @@ header {
 }
 
 
-
 header .container,
 nav .container {
 	position: relative;
@@ -127,18 +126,18 @@ div.headline {
 	position: absolute;
 	bottom: 20px;
 	left: 10px;
-  width: 100%;
+  	width: 100%;
 
 	h1, h2 {
 		color: #fff;
 		text-transform: uppercase;
 		line-height: 1em;
 		margin-bottom: 0px;
-    margin-left: 10px;
-    -webkit-transition: font-size .3s ease-in-out;
-    -moz-transition: font-size .3s ease-in-out;
-    -o-transition: font-size .3s ease-in-out;
-    -ms-transition: font-size .3s ease-in-out;				
+	    margin-left: 10px;
+	    -webkit-transition: font-size .3s ease-in-out;
+	    -moz-transition: font-size .3s ease-in-out;
+	    -o-transition: font-size .3s ease-in-out;
+	    -ms-transition: font-size .3s ease-in-out;				
 	}
 
 	h1 {
@@ -157,16 +156,80 @@ div.headline {
 		font-style: italic;
 		background-color: rgba(0,0,0,0.5);
 		padding: 3px 10px;
-    margin-left: 5px;
+    	margin-left: 5px;
 		max-width: 75%;
+		margin-bottom: 10px;
 	}
 	
 	span.forward {
 		font-size: 5em;
-    margin: 0 0 0 10px;
+    	margin: 0 0 0 10px;
 		font-weight: 300;
 		position: relative;
 	}	
+}
+
+// Home banner
+body.home header {
+	z-index: 1000;
+	background: transparent;
+	background-color: none;
+
+	.container {
+		text-align: center;
+		background: transparent;
+	}
+
+	div.headline {
+		text-align: center;
+		bottom: 80px;
+
+		h1 {
+			text-transform: uppercase;
+			display: inline-block;
+			font-size: 10em;
+			font-weight: bold;
+			color: #fff;
+			line-height: 225px;
+
+			&:hover {
+				@include transition(all);
+				@include transition-duration(0.3s);				
+				//font-size: 10.1em;
+				text-shadow: 3px 3px 10px rgba(0,0,0,0.7)
+			}
+		}
+
+		span#amp {
+			margin-left: 25px;
+			margin-right: 20px;
+			position: relative;
+			top: -30px;
+			color: #99c745;
+			font-size: 3em;
+			line-height: 53px;
+			display: inline-block;
+			width: 53px;
+			height: 53px;
+			text-align: center;
+			@include border-radius(50px);
+			background-color: #fff;
+		}
+
+		.tagline-container {
+			width: 500px;
+			margin: 0 auto;
+		}
+
+		h3 {
+			padding: 2px 10px;
+			line-height: 1.5em;
+			display: inline;
+			font-weight: 600;
+		}
+	}
+
+
 }
 
 
