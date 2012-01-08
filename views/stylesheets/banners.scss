@@ -6,44 +6,99 @@ Banner Image Sizes:
 */
 
 
-/* iPhone/Mobile Banner Size */
+@mixin banner($page, $img) {
+	body.#{$page} header {
+		background-image: url(/images/banners/#{$img});	
+	}
+}
+
+
 @media only screen and (max-width: 500px) {
+	header { height: 400px; }
 	
-	header {
-		height: 400px;
-	}
+	@include banner('work', 'work-cowork-sm.jpg');
+	@include banner('work.page-convenient', 'work-sean-sm.jpg');
+	@include banner('work.page-inventive', 'work-fridge-sm.jpg');
+	@include banner('work.page-prosperous', 'work-fireworks-sm.jpg');
 
-	header {
-		background-image: url(/images/banners/work-drive-sm.jpg);
-	}
+
+	@include banner('life', 'life-festival-sm.jpg');
+	@include banner('life.page-satisfying', 'life-apples-sm.jpg');
+	@include banner('life.page-uncomplicated', 'life-cycling-sm.jpg');
+	@include banner('life.page-cultured', 'life-devereux-sm.jpg');
 
 }
-
-/* iPad/Small screens */
 @media only screen and (max-width: 1023px) and (min-width: 501px) {
+	header { height: 500px; }
 
-	header {
-		height: 500px;
-	}
+	@include banner('work', 'work-cowork-md.jpg');
+	@include banner('work.page-convenient', 'work-sean-md.jpg');
+	@include banner('work.page-inventive', 'work-fridge-md.jpg');
+	@include banner('work.page-prosperous', 'work-fireworks-md.jpg');
 
-	header {
-		background-image: url(/images/banners/work-drive-md.jpg);
-	}
+	@include banner('life', 'life-festival-md.jpg');
+	@include banner('life.page-satisfying', 'life-apples-md.jpg');
+	@include banner('life.page-uncomplicated', 'life-cycling-md.jpg');
+	@include banner('life.page-cultured', 'life-devereux-md.jpg');
+
+
+}
+@media only screen and (min-width: 1024px) {
+	header { height: 560px; }
+
+	@include banner('work', 'work-cowork-lg.jpg');
+	@include banner('work.page-convenient', 'work-sean-lg.jpg');
+	@include banner('work.page-inventive', 'work-fridge-lg.jpg');
+	@include banner('work.page-prosperous', 'work-fireworks-lg.jpg');
 	
 
+	@include banner('life', 'life-festival-lg.jpg');
+	@include banner('life.page-satisfying', 'life-apples-lg.jpg');
+	@include banner('life.page-uncomplicated', 'life-cycling-lg.jpg');
+	@include banner('life.page-cultured', 'life-devereux-lg.jpg');
+	
 }
 
-/* Most desktops/bigger screens */
-@media only screen and (min-width: 1024px) {
-
-	header {
-		height: 560px;
-	}
-
-	header {
-		background-image: url(/images/banners/work-drive-lg.jpg);
-	}
 
 
+// /* iPhone/Mobile Banner Size */
+// @media only screen and (max-width: 500px) {
+	
+// 	header {
+// 		height: 400px;
+// 	}
 
-}
+// 	header {
+// 		background-image: url(/images/banners/work-drive-sm.jpg);
+// 	}
+
+// }
+
+// /* iPad/Small screens */
+// @media only screen and (max-width: 1023px) and (min-width: 501px) {
+
+// 	header {
+// 		height: 500px;
+// 	}
+
+// 	header {
+// 		background-image: url(/images/banners/work-drive-md.jpg);
+// 	}
+	
+
+// }
+
+// /* Most desktops/bigger screens */
+// @media only screen and (min-width: 1024px) {
+
+// 	header {
+// 		height: 560px;
+// 	}
+
+// 	header {
+// 		background-image: url(/images/banners/work-drive-lg.jpg);
+// 	}
+
+
+
+// }
