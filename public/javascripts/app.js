@@ -23,16 +23,20 @@ $(document).ready(function() {
  * Detect user agent so we can correctly set footer height for iphone and ipad.
  */
 var ua = navigator.userAgent
-var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "inherit" : "420px";
-
+// TODO: This should be refactored. We really need to get away from these static values. -Mason
+var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "540px" : "420px";
   $('#toggle').click(function() {
     if ($('#footer').height() != '77') {
       $('#footer').css('height','77px');
       $(this).removeClass('down').addClass('up')
     } else {
       $('#footer').css('height', detect);
-      if (detect = 'inherit'){
+      if (detect != '540px'){
       	$.scrollTo('+=420px', 800);
+      } else {
+        // This is not really wise, IMO (Speaking to myself, since I wrote it) -Mason
+        mobileScroll = $('#wrapper').height() - $('#footer').height();
+        $.scrollTo(mobileScroll+'px', 800);
       }
       $(this).removeClass('up').addClass('down');
     }
