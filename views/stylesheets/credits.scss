@@ -1,0 +1,103 @@
+body.credits{
+	header{
+		background: none;
+		height: 295px;
+		
+		h1{
+			color: #d5cc25;
+			text-transform: capitalize;
+			display: block;
+			background: url(/images/double-border.jpg) repeat-x 0 bottom;
+		}
+		
+		div.headline{
+			top: 160px;
+			width: 100%;
+		}
+	}
+	
+	article > h2{
+		color: #416331;
+	}
+	
+	article h3{
+		color: #98c642;
+	}
+	
+	article img{
+		margin-bottom: 48px;
+	}
+	
+	.visitcon{
+		background: url(/images/visit-bg.jpg);
+		
+		.top{
+			background: url(/images/visit-bg-top.jpg) repeat-x;
+			height: 11px;
+			width: 100%;	
+		}
+			
+		.bottom{
+			background: url(/images/visit-bg-bottom.jpg) repeat-x;
+			height: 11px;
+			width: 100%;
+		}
+			
+		
+		
+		h2{
+			color: #fff;
+		}
+		
+		p{
+			color: #b9c3ba;
+		}
+		
+		a{
+			color: #fff;
+		}
+		
+		img{
+			margin-left: 30px;
+			border-radius: 4px;
+		}
+		
+		.visit{
+			margin-bottom: 90px;
+			
+			
+			h3{
+				margin-bottom: 15px;
+				padding-left: 53px;
+				line-height: 38px;
+				margin-left: -55px;
+			}
+		}
+		
+		.visit-1{
+			margin-top: 55px;
+			
+			h3{
+				background: url(/images/visit-01.jpg) no-repeat;
+			}			
+			
+		}
+		
+		.visit-2{
+			
+			h3{
+				background: url(/images/visit-02.jpg) no-repeat;
+			}
+			
+		}
+		
+		.visit-3{
+			margin-bottom: 70px;
+			
+			h3{
+				background: url(/images/visit-03.jpg) no-repeat;
+			}
+			
+		}
+	}
+}
