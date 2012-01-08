@@ -19,14 +19,22 @@ $(document).ready(function() {
     seanFit();
   });
 
+/**
+ * Detect user agent so we can correctly set footer height for iphone and ipad.
+ */
+var ua = navigator.userAgent
+var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "inherit" : "420px";
+
   $('#toggle').click(function() {
     if ($('#footer').height() != '77') {
       $('#footer').css('height','77px');
       $(this).removeClass('down').addClass('up')
     } else {
-      $('#footer').css('height', '420px');
-      $.scrollTo('+=420px', 800);
-      $(this).removeClass('up').addClass('down')
+      $('#footer').css('height', detect);
+      if (detect = 'inherit'){
+      	$.scrollTo('+=420px', 800);
+      }
+      $(this).removeClass('up').addClass('down');
     }
   });
 
