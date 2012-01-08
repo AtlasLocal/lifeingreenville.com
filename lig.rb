@@ -72,17 +72,20 @@ error do
 end
 
 helpers do
+
   
   def render_aside
-    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
+  	if File.exist?("views/articles/#{params[:category]}/#{params[:name]}.md")
       html = '<aside class="row span4">'
-    if params[:name]
-      html << '<div class="sidenav">'
-      html << '<h3>See Also</h3>'
-      html << "<a href='/#{params[:category]}>#{params[:category]}</a>"
-      html << "</div>"
-    end
-      html << markdown("asides/#{params[:category]}/#{params[:name]}".to_sym)
+	    if params[:name]
+	      html << '<div class="sidenav">'
+	      html << '<h3>See Also</h3>'
+	      html << "<a href='/#{params[:category]}>#{params[:category]}</a>"
+	      html << "</div>"
+	    end
+	    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
+	      html << markdown("asides/#{params[:category]}/#{params[:name]}".to_sym)
+	    end
       html << '</aside>'
     end
   end
