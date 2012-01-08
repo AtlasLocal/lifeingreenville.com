@@ -1,14 +1,14 @@
 $darkgreen: #3f6230;
 $lightgreen: #99c745;
 
-body.life .container {
+.container {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
 }
 
-body.life .container article {
+.container article {
 	background: url('/images/double.png') right top repeat-y;
 	padding-right: 36px;
 }
