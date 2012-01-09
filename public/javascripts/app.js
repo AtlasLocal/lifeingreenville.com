@@ -2,9 +2,10 @@ $(document).ready(function() {
   // $("#video").fitVids();
 
   var seanFit = function() {
-    if ($(window).width() < $(window).height()) {
-      $('#video').width($(window).height()*2+'px');
-    }
+    // if ($(window).width() < $(window).height()) {
+    //   $('#video').width($(window).height()*2+'px');
+    // }
+    $('#video').height($(window).height()+'px');
   }
   
   // var seanFit = function() {
@@ -13,11 +14,11 @@ $(document).ready(function() {
   //   }
   // }
   
-  // seanFit();
+  seanFit();
 
-  // $(window).resize(function(){
-  //   seanFit();
-  // });
+  $(window).resize(function(){
+    seanFit();
+  });
 
   /**
    * Detect user agent so we can correctly set footer height for iphone and ipad.
