@@ -14,7 +14,7 @@ body {
 }
 
 p {
-	line-height: 20px;
+	line-height: 24px;
 }
 
 #wrapper {
@@ -26,8 +26,10 @@ h1,h2,h3,h4,h5,h6, a {
 }
 
 h3 {
+  color: #3F6230;
 	font-size: 16px;
-	font-weight: 600;	
+	font-weight: 700;	
+  text-transform: uppercase;
 }
 
 .main {
@@ -40,14 +42,27 @@ body.home .main {
 }
 
 a {
+  color: #3F6230;
 	border-bottom: 1px solid #3e622d;
 	padding-bottom: 1px;
 	text-decoration: none;
+  font-family: "kulturista-web", serif;
+  font-weight: 600;
+  font-style: italic;
 	&:hover {
 		border-bottom: 1px solid #3f6230;
 		text-decoration: none;
-		color: #3f6230;
+    color: #60884f;
 	}
+}
+
+ul, ol {
+  margin-left: 55px;
+}
+
+ul li, ol li {
+  line-height: 1.7em;
+  color: #404040;
 }
 
 
@@ -92,7 +107,7 @@ body.not-found #video {
 .crumb-wrapper {
 	width: 100%;
   	background: #fff;
-	border-bottom: 4px double #DADADA;
+	border-bottom: 6px double #DADADA;
 }
 
 .breadcrumbs {
@@ -110,4 +125,21 @@ body.not-found #video {
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
+}
+
+aside .sidenav {
+  margin-bottom: 36px;
+}
+
+aside .sidenav p {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+aside ul {
+  margin-left: 0;
+}
+
+aside li {
+  line-height: 1.7em;
 }
