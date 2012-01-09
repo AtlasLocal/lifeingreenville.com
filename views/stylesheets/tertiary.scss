@@ -64,20 +64,32 @@ aside {
 	padding-left: 4px;
 }
 
+aside .sidenav {
+  margin: 50px 0 54px 0px;
+}
+
+aside ul {
+  margin: 0 0 54px 0;
+}
+
 aside h3 {
 	color: $lightgreen;
 	font-family: "kulturista-web", serif;
 	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase;
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  line-height: 1.1em;
 }
 
-aside li {
-	list-style: none;
-	color: $darkgreen;
-	font-style: italic;
-	font-family: "kulturista-web",serif;
+aside li, aside .sidenav p {
+  font-size: 108%;
+  line-height: 1.8em;
+  margin-bottom: 0;
 }
+
+aside li { list-style: none; }
 
 aside blockquote {
 	border-left: none;
