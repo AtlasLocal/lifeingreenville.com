@@ -192,6 +192,10 @@
 		.container aside {
 			display: none;
 		}
+
+		.container article {
+			border: none;
+		}
 	
 		nav {
 	
@@ -337,6 +341,10 @@
 		body.life .container article {
 			background: none;
 			padding-right: 0;
+		}
+
+		.container article {
+			border: none;
 		}
 
 		article h1 {
