@@ -62,11 +62,12 @@
   <body class="<%= params[:category] || 'home'%><%= params[:name] ? " page-#{params[:name]}" : nil %>">
   
   <div id="wrapper">
-
+  <% unless params[:category] == 'visit' %>
   <a id="visit" href="/visit">
     <img src="/images/trip2.gif">
     Plan a visit
-  </a>  
+  </a>
+  <% end %>
 
   <nav>
     <div class="container">
