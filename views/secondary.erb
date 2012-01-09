@@ -6,7 +6,7 @@
   <div class="span-one-third<%= i % 3 == 0 ? ' column alpha' : '' %><%= i % 3 == 2 ? ' column omega' : '' %>">
     <div class="content">
       <h2><a href="<%= a.permalink %>" title="<%= a.title %>"><%= a.title %></a></h2>
-      <p><%= a.description %></p>
+      <%# '<p>' + a.description + '</p>' %>
       <a class="catlink" href="<%= a.permalink %>" title="<%= a.title %>"><img src="/images/categories/<%= a.metadata[:category_image] %>"/></a>
     </div><!-- /.content -->
   </div>

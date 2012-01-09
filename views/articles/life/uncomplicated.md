@@ -1,13 +1,11 @@
-title: Uncomplicated
+title: Hassle-free<br> City Life
 category_tagline: Everything you need,<br> within reach.
 category_image: cat-life-apples.jpg
 banner_sub_headline: Uncomplicated
 banner_tagline: Make a life, not just a living
 banner_image_caption: Nearby apple orchards make for fun outings and delicious treats.
 
-# Life / Uncomplicated
-
-## City life without the hassle
+# Hassle-free City Life
 
 ### Locomotion
 For some, getting from point A to point B is the worst part of the day.  In Greenville, whether you're pedaling in the bike lane to the office or taking the free trolley from bistro to tapas bar, you'll find that getting from point A to point B can actually be a pleasure.  With an idyllic, walkable downtown and a short drive to office parks, malls, and most anything else you need, Greenville provides unparalleled accessibility that won't leave you frustrated.

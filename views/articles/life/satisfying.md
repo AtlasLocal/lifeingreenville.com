@@ -1,13 +1,11 @@
-title: Satisfying
+title: Unsurpassed<br> Quality Of Life
 category_tagline: Whatever your priorities,<br> you'll find options here.
 category_image: cat-life-cycling.jpg
 banner_sub_headline: Satisfying
 banner_tagline: Find what you've been looking for
 banner_image_caption: Greenville hosts the USA Pro Cycling Championship each year.
 
-# Life / Satisfying
-
-## Quality of life
+# Unsurpassed Quality Of Life
 
 ### Healthy Living
 In Greenville, options for eating and living healthy abound. Two major hospital systems care for our community in addition to holistic and alternative practices. Year-round and seasonal farmers markets as well as the new Swamp Rabbit Cafe & Grocery offer fresh food from local farmers. Healthy supermarkets including Earth Fare and Whole Foods provide a wide variety of organic foods. Greenville is also home to the first official [Slow Food Earth Market](http://www.earthmarkets.net/network/greenville) in the US .

@@ -1,11 +1,11 @@
-title: Prosperous
+title: Greenville's Thriving Economy
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category_image: cat-work-fireworks.jpg
 banner_sub_headline: Prosperous
 banner_tagline: Economic Drive
 banner_image_caption: Reedy River development was a key factor in Greenville's revitalization.
 
-# Prosperous
+# Greenville's Thriving Economy
 
 ## Join the momentum of a community that's making headlines.
 
