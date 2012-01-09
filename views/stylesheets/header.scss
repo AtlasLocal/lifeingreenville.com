@@ -12,7 +12,7 @@ nav {
 	width: 100%;
 	z-index: 100;
 
-	h1 {
+	h1 a {
 		position: relative;
 		display: block;
 		width: 211px;
@@ -30,7 +30,7 @@ nav {
 
 
 		&:hover {
-			top: -5px;
+			top: -2px;
 		}
 	}	
 
