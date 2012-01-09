@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#video").fitVids();
+  // $("#video").fitVids();
 
   var seanFit = function() {
     if ($(window).width() < $(window).height()) {
@@ -13,11 +13,11 @@ $(document).ready(function() {
   //   }
   // }
   
-  seanFit();
+  // seanFit();
 
-  $(window).resize(function(){
-    seanFit();
-  });
+  // $(window).resize(function(){
+  //   seanFit();
+  // });
 
   /**
    * Detect user agent so we can correctly set footer height for iphone and ipad.
@@ -32,10 +32,10 @@ $(document).ready(function() {
     } else {
       $('#footer').css('height', $('#footer_nav').height()+77+'px');      
       if (detect != 'iPhone'){      
-      	$.scrollTo('+='+$('#footer_nav').height()+'px', 400);
+      	$.scrollTo('+='+$('#footer_nav').height()+'px', 300);
       } else {      
         mobileScroll = $('#wrapper').height() - $('#footer').height();
-        $.scrollTo(mobileScroll+'px', 400);      
+        $.scrollTo(mobileScroll+'px', 300);      
       }      
       $(this).removeClass('up').addClass('down');
     }

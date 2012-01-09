@@ -51,7 +51,9 @@ nav {
 				color: #99c64d;
 				font-size: 1.4em;
 				margin-left: 15px;
-				line-height: 30px;				
+				line-height: 30px;
+				border: none;
+				padding-bottom: 0px;			
 			}		
 		}
 	}	
@@ -60,7 +62,8 @@ nav {
 body.life a.life,
 body.work a.work {
 	color: #3f6230;
-	text-decoration: underline;
+	border-bottom: 1px solid #3f6230;
+	padding-bottom: 1px;	
 }
 
 a#visit {
@@ -105,6 +108,10 @@ a#visit:active {
 	padding-left: 82px;
 	padding-right: 10px;
 	text-indent: 0px;
+}
+
+body.visit a#visit {
+	display: none;
 }
 
 
@@ -211,7 +218,6 @@ span.credit {
 
 	a {
 		color: #fff;
-		text-decoration: underline;
 	}
 }
 
@@ -231,16 +237,16 @@ span.credit {
 			text-transform: uppercase;
 			font-weight: 600;
 			color: #FFF;
-			font-size: 53px;
+			font-size: 48px;
 			background-color: rgba(0,0,0,0.5);
 
 			display: inline-block;
 			line-height: 76px;
-			margin-bottom: 10px;
+			margin-bottom: 7px;
 			padding: 0px 10px;
 		}
 		h2 {
-			margin-top: 40px;
+			margin-top: 15px;
 			padding-left: 10px;
 			padding: 5px 10px;
 			color: #FFF;
