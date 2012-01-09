@@ -1,6 +1,6 @@
 $(document).ready ->
 	return if detect == 'iPhone'
-	scrollBannerBG = (animate=yes)->
+	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560
 		if width <= 1023
@@ -10,20 +10,13 @@ $(document).ready ->
 		bgHeight = bannerHeight * 1.2
 		offset = ($(window).scrollTop()/$(document).height()) * 500
 		bannerVerticalPos = (((bannerHeight-bgHeight)/2) + offset)
-		if animate
-			$("header").stop().animate(
-				'background-position-y': "#{bannerVerticalPos}",
-				60,
-				'easeOutQuad'
-			)
-		else
-			$("header").css
-				'background-position': "50% #{bannerVerticalPos}px"
+		$("header").css
+			'background-position': "50% #{bannerVerticalPos}px"
 	
 	$(window).bind "scroll", (e)->
-		scrollBannerBG(animate=yes)
+		scrollBannerBG()
 	
 	$(window).bind 'resize', (e)->
 		scrollBannerBG()
 	
-	scrollBannerBG(animate=no)
+	scrollBannerBG()
