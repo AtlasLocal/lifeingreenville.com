@@ -121,6 +121,7 @@ header {
 	margin-top: 58px;
 	color: #fff;
 	
+	-webkit-transform: translateZ(0);
 	@include transition(height);
 	@include transition-duration(0.3s);
 
