@@ -33,8 +33,6 @@ body.home .main {
 	background: transparent;
 }
 
-a:hover, a.current {
-	color: #3f6230;
 a {
 	text-decoration: underline;
 	&:hover, a.current {
@@ -77,7 +75,7 @@ a {
 }
 
 .breadcrumbs .active {
-	color: $lightgreen;
+  color: $lightgreen;
   font-family: "kulturista-web", serif;
   font-weight: 700;
   font-style: normal;
