@@ -23,7 +23,7 @@ nav {
 		background-size: cover;
 		margin-left: 10px;
 		margin-top: 20px;
-    border: 0;
+	    border: 0;
 
 		@include transition(all);
 		@include transition-duration(0.1s);	
@@ -32,6 +32,7 @@ nav {
 
 		&:hover {
 			top: -2px;
+			border: 0;
 		}
 	}	
 
