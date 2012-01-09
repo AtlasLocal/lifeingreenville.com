@@ -15,7 +15,7 @@
         bannerHeight = 400;
       }
       bgHeight = bannerHeight * 1.2;
-      offset = ($(window).scrollTop() / $(document).height()) * 240;
+      offset = ($(window).scrollTop() / $(document).height()) * 220;
       bannerVerticalPos = Math.floor(((bannerHeight - bgHeight) / 2) + offset);
       return $("header").css({
         'background-position': "50% " + bannerVerticalPos + "px"
