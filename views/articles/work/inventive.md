@@ -1,11 +1,11 @@
-title: Inventive
+title: A Creative Work Community
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category_image: cat-work-fridge.jpg
 banner_sub_headline: Inventive
 banner_tagline: Craftsmanship & Technical Ingenuity
 banner_image_caption: Cowork Greenville is a beautiful space for independent collaboration
 
-# Inventive
+# A Creative Work Community
 
 ## Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
 

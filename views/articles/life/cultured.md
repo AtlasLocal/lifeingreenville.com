@@ -1,13 +1,11 @@
-title: Cultured
+title: Tasteful Arts & Entertainment
 category_tagline: Greenville boasts a wealth<br> of enrichment and artistry.
 category_image: cat-life-festival.jpg
 banner_sub_headline: Cultured
 banner_tagline: A mosaic of creativity and community
 banner_image_caption: Greenville's popular festivals bring huge crowds to downtown.
 
-# Life / Cultured
-
-## Tasteful Arts and Entertainment
+# Tasteful Arts and Entertainment
 
 ### Visual Art
 A haven for visual artists, the Greenville community supports many independent studios, some nationally recognized. Local events like First Fridays, highlight the variety and liveliness of the art scene by encouraging artists to open their studios to the public. Once a year, Artisphere, a curated open-air art festival, draws both local and national artists to downtown Greenville.

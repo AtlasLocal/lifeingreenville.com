@@ -1,11 +1,11 @@
-title: Convenient
+title: 15 Minutes To Anywhere
 category_tagline: 15 Minutes to Anywhere
 category_image: cat-work-cowork.jpg
 banner_sub_headline: Convenient
-banner_tagline: 15 Minutes to Anywhere
+banner_tagline: A Refreshing Change Of Pace
 banner_image_caption: A typical day at local coworking space CoWork Greenville.
 
-# Convenient
+# 15 Minutes To Anywhere
 
 ## In Greenville, you can work downtown and live minutes away, affordably.
 
