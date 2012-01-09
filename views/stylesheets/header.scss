@@ -178,10 +178,11 @@ div.headline {
 	}
 	
 	span.forward {
-		font-size: 5em;
-    	margin: 0 0 0 10px;
-		font-weight: 300;
-		position: relative;
+    font-size: 7em;
+    margin: 0 0 0 10px;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
 	}	
 }
 
@@ -202,7 +203,7 @@ div.caption {
 	}
   
   p {
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     line-height: 1.4em;
   }
 }
