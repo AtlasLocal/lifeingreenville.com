@@ -21,6 +21,7 @@ body.visit{
 	
 	article {
 		> h2{
+			font-size: 25px;
 			font-weight: 600;
 			color: #416331;
 		}
@@ -29,6 +30,9 @@ body.visit{
 		}
 		img {
 			margin-bottom: 48px;
+		}
+		p {
+			line-height: 24px;
 		}
 		p.pfirst {
 			font-family: "kulturista-web", serif;
