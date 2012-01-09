@@ -60,8 +60,10 @@ article img {
   -ms-transition: all .3s ease-in-out;	
 }
 
-aside {
-	padding-left: 4px;
+aside.span4 {
+/*  padding-left: 4px;*/
+  width: 270px;
+  margin-left: 30px;
 }
 
 aside .sidenav {
@@ -69,7 +71,7 @@ aside .sidenav {
 }
 
 aside ul {
-  margin: 0 0 54px 0;
+  margin: 0 0 54px 16px;
 }
 
 aside h3 {
@@ -83,13 +85,19 @@ aside h3 {
   line-height: 1.1em;
 }
 
-aside li, aside .sidenav p {
+aside li {
   font-size: 108%;
-  line-height: 1.8em;
-  margin-bottom: 0;
+  line-height: 20px;
+  margin-bottom: 8px;
+  list-style: square;
+  color: #D5D5D5;
 }
 
-aside li { list-style: none; }
+aside li span {
+  color: #3F6230;
+  font-family: "kulturista-web", serif;
+  font-weight: 700;
+}
 
 aside blockquote {
 	border-left: none;

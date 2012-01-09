@@ -91,12 +91,16 @@ helpers do
 	      html << '<div class="sidenav">'
 	      html << '<h3>See Also</h3>'
         articles = Article.find_all(params[:category])
+        html << '<ul>'
         articles.each do |a|
           unless a[:slug] == params[:name]
-            html << "<p><a href='/#{params[:category]}/#{a[:slug]}'>#{a[:title]}</a><p>"
+            html << "<li><a href='/#{params[:category]}/#{a[:slug]}'>#{a[:title]}</a></li>"
+          else
+            html << "<li><span>#{a[:title]}</span></li>"
           end
         end
-        html << "</div>"
+        html << '</ul>'
+        html << '</div>'
 	    end
       
       # get the Aside content
