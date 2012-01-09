@@ -93,10 +93,11 @@ helpers do
         articles = Article.find_all(params[:category])
         html << '<ul>'
         articles.each do |a|
+          title = a[:title].gsub('<br>', '')
           unless a[:slug] == params[:name]
-            html << "<li><a href='/#{params[:category]}/#{a[:slug]}'>#{a[:title]}</a></li>"
+            html << "<li><a href='/#{params[:category]}/#{title}'>#{title}</a></li>"
           else
-            html << "<li><span>#{a[:title]}</span></li>"
+            html << "<li><span>#{title}</span></li>"
           end
         end
         html << '</ul>'
