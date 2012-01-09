@@ -134,26 +134,25 @@ header .container,
 nav .container {
 	position: relative;
 	width: 100%;
-	max-width: 960px;
+	max-width: 940px;
 	height: 100%;
 }
 
 div.headline {
 	position: absolute;
 	bottom: 20px;
-	left: 10px;
-  	width: 100%;
+/*  left: 10px;*/
+	width: 100%;
 
 	h1, h2 {
 		color: #fff;
 		text-transform: uppercase;
 		line-height: 1em;
 		margin-bottom: 0px;
-	    margin-left: 10px;
-	    -webkit-transition: font-size .3s ease-in-out;
-	    -moz-transition: font-size .3s ease-in-out;
-	    -o-transition: font-size .3s ease-in-out;
-	    -ms-transition: font-size .3s ease-in-out;				
+    -webkit-transition: font-size .3s ease-in-out;
+    -moz-transition: font-size .3s ease-in-out;
+    -o-transition: font-size .3s ease-in-out;
+    -ms-transition: font-size .3s ease-in-out;				
 	}
 
 	h1 {
@@ -163,6 +162,7 @@ div.headline {
 	h2 {
 		font-style: normal;
 		font-weight: 600;
+    margin-left: 10px;
 	}
 
 	h3 {
@@ -172,7 +172,7 @@ div.headline {
 		font-style: italic;
 		background-color: rgba(0,0,0,0.5);
 		padding: 3px 10px;
-    	margin-left: 9px;
+/*    margin-left: 9px;*/
 		max-width: 75%;
 		margin-bottom: 10px;
 	}
