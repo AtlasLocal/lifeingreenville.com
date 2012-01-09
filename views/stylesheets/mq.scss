@@ -379,9 +379,19 @@
 			}
 		}			
     
-		#categories { 
-			background: none;
-		}
+    #categories {
+    	background: none;
+    	.container .span6 { 
+
+    	}
+    	.content{
+	    	a.catlink,
+	    	a.catlink img {
+	    		margin: 0 auto;
+	    	}
+    	}
+    }
+
 		#footer #footer_nav {
 			#cowork_credit {
 				clear: left;
