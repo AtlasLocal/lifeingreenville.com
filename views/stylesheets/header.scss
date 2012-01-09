@@ -13,14 +13,25 @@ nav {
 	z-index: 100;
 
 	h1 {
+		position: relative;
 		display: block;
 		width: 211px;
 		height: 97px;
 		overflow: hidden;
 		text-indent: -999999px;
 		background: url(/images/logo.png) no-repeat;
+		background-size: cover;
 		margin-left: 10px;
 		margin-top: 20px;
+
+		@include transition(all);
+		@include transition-duration(0.2s);	
+		@include transition-timing-function(ease-out);
+
+
+		&:hover {
+			top: -4px;
+		}
 	}	
 
 	ul {
