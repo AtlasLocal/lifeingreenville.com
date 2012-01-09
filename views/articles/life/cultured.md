@@ -2,8 +2,8 @@ title: Cultured
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category_image: cat-life-festival.jpg
 banner_sub_headline: Cultured
-banner_tagline: Example stuff about life here
-banner_image_caption: Hell, yeah, tacos!
+banner_tagline: A mosaic of creativity and community
+banner_image_caption: The Greenville Drive, a class A affiliate of the Red Sox.
 
 # Life / Cultured
 
