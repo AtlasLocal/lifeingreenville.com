@@ -1,7 +1,7 @@
 (function() {
   $(document).ready(function() {
     var scrollBannerBG;
-    if ($.browser.mobile) {
+    if (detect === 'iPhone') {
       return;
     }
     scrollBannerBG = function() {

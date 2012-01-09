@@ -62,11 +62,11 @@
       text-align: center;
       margin-left: -5px;
       @include transition(rotation);
-      @include transition-duration(0.2s);
+      @include transition-duration(0.3s);
     }
     &.down #plus-glyph {
     	@include rotate(45deg);
-      @include transition-duration(0.8s);
+      @include transition-duration(0.3s);
     }
   }
 

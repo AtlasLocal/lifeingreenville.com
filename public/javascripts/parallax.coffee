@@ -1,5 +1,5 @@
 $(document).ready ->
-	return if $.browser.mobile
+	return if detect == 'iPhone'
 	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560
