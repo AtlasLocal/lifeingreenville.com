@@ -228,6 +228,11 @@ span.credit {
 		position: absolute;
 		z-index: 100;
 	}
+	.not-found-banner {
+		background-color: #000;
+		background-image: url(/images/banners/404.jpg);	
+		
+	}
 
 	.home-banner {
 		width: 100%;
