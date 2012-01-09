@@ -2,14 +2,12 @@ title: Inventive
 category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category_image: cat-work-fridge.jpg
 banner_sub_headline: Inventive
-banner_tagline: Example stuff about life here
-banner_image_caption: Hell, yeah, tacos!
+banner_tagline: Craftsmanship & Technical Ingenuity
+banner_image_caption: Cowork Greenville is a beautiful space for independent collaboration
 
 # Inventive
 
-## Craftsmanship & Technical Ingenuity
-
-Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
+## Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
 
 ### A Community of Makers
 
