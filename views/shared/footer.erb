@@ -11,26 +11,28 @@
         <div class="row">
           <div class="container">
             <div class="column span3">
-              <h3>life</h3>
+              <h3>Life</h3>
+              <% articles = Article.find_all('life') %>
               <ul>
-                <li><a href="#" title="">Easy &amp; Affordable</a></li>
-                <li><a href="#" title="">Life Is Good</a></li>
-                <li><a href="#" title="">Creative Culture</a></li>
+                <% articles.each do |a| %>
+                <li><a href="<%= a.permalink %>" title="<%= a.title %>"><%= a.title %></a></li>
+                <% end %>
               </ul>
             </div><!-- column -->
             <div class="column span3">
               <h3>Work</h3>
+              <% articles = Article.find_all('work') %>
               <ul>
-                <li><a href="#" title="">Creative Culture</a></li>
-                <li><a href="#" title="">Thriving Economy</a></li>
-                <li><a href="#" title="">Convenient Downtown</a></li>
+                <% articles.each do |a| %>
+                <li><a href="<%= a.permalink %>" title="<%= a.title %>"><%= a.title %></a></li>
+                <% end %>
               </ul>
             </div><!-- column -->
             <div class="column span3">
               <h3>Visit</h3>
               <ul>
-                <li><a href="#" title="">Link Option One</a></li>
-                <li><a href="#" title="">Another Link</a></li>
+                <li><a href="/visit#evening" title="An Evening">An Evening</a></li>
+                <li><a href="/visit#weekend" title="A Weekend">A Weekend</a></li>
               </ul>
             </div><!-- column -->
             <div class="offset10" id="cowork_credit">
