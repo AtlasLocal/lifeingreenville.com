@@ -59,6 +59,10 @@ a {
 	background-size: cover;
 }
 
+body.not-found #video {
+	background: url(/images/banners/404.jpg) no-repeat center center;
+}
+
 
 .home {
 	overflow: hidden;

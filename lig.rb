@@ -72,6 +72,7 @@ end
 
 not_found do
   set :ignore_header, true
+  params[:category] = 'not-found'
   erb :'404'
 end
 

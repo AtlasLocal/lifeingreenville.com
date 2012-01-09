@@ -220,18 +220,18 @@ span.credit {
 }
 
 // Home Page Banner (video overlay)
-.home {
+.home, .not-found {
 	
 	.main {
 		width: 100%;
 		top: 180px;
 		position: absolute;
 		z-index: 100;
+		background: transparent;
 	}
-	.not-found-banner {
-		background-color: #000;
-		background-image: url(/images/banners/404.jpg);	
-		
+
+	.container {
+		background: transparent;
 	}
 
 	.home-banner {
@@ -269,7 +269,7 @@ span.credit {
 }
 
 @media only screen and (max-width: 550px) {
-	.home .home-banner {
+	.home-banner {
 		
 		h1 {
 			font-size: 24px;
@@ -279,7 +279,7 @@ span.credit {
 }
 
 @media only screen and (max-width: 801px) and (min-width: 551px) {	
-	.home .home-banner {
+	.home-banner {
 		h1 {
 			font-size: 40px;
 			line-height: 55px;
