@@ -9,6 +9,7 @@ banner_image_caption: Cowork Greenville is a beautiful space for independent col
 
 ## Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
 
+![My Image Text](/images/article-images/CoWorkGreenville.jpg "CoWork Greenville")
 ### A Community of Makers
 
 Whether you’re looking to join an innovative agency like [Brains on Fire](http://brainsonfire.com) or team up with an engineering powerhouse like [BMW](http://www.bmwusfactory.com/zentrum), Greenville boasts a disproportionate share of big opportunities. If you're looking for a craftsman culture of independent creators, you're also in good company. A diversity of talented artists, designers, illustrators, and creators collaborate throughout Greenville’s downtown area, nearby arts district and shared work spaces like [CoWork Greenville](http://coworkgreenville.com), [White Whale Studios](http://www.whitewhalestudios.com/) and the [NEXT Innovation Center](http://www.greenvillenext.com).
