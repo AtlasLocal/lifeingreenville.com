@@ -24,7 +24,7 @@ $(document).ready(function() {
    */
   var ua = navigator.userAgent
   var detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "iPhone" : "other";
-  
+  window.detect = detect;
   $('#toggle').click(function(e) {
     if ($('#footer').height() != '77') {      
       $('#footer').css('height','77px');
