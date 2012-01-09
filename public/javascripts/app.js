@@ -32,7 +32,9 @@ $(document).ready(function() {
       $(this).removeClass('down').addClass('up')
     }
   );
-  
+  var ua = navigator.userAgent
+  window.detect = (ua.match(/iPad/i) || ua.match(/iPhone/i)) ? "iPhone" : "other";
+
   /**
    * Detect user agent so we can correctly set footer height for iphone and ipad.
    */

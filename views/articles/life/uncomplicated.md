@@ -2,7 +2,7 @@ title: Uncomplicated
 category_tagline: Everything you need,<br> within reach.
 category_image: cat-life-apples.jpg
 banner_sub_headline: Uncomplicated
-banner_tagline: Make a life, not just a living.
+banner_tagline: Make a life, not just a living
 banner_image_caption: Nearby apple orchards make for fun outings and delicious treats.
 
 # Life / Uncomplicated
