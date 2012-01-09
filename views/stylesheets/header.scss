@@ -258,13 +258,15 @@ span.credit {
 			font-style: italic;
 			background-color: rgba(0,0,0,0.5);
 			display: inline-block;
-			a {
-				text-transform: uppercase;
-				color: #97c93c;
-				font-weight: bolder;
-				font-style: normal;
-			}
+
 		}
+
+		a {
+			text-transform: uppercase;
+			color: #97c93c;
+			font-weight: bolder;
+			font-style: normal;
+		}		
 	}
 }
 
