@@ -2,6 +2,10 @@
 
 /* Non-mobile sizes for banner headlines */
 @media only screen and (min-width: 500px) {
+  
+  .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 0px; }
+  .column.omega, .columns.omega               { margin-right: 0; margin-left: 20px; }
+  
 
   div.headline {
     h1, h2, h3 {
@@ -33,8 +37,8 @@
     .container                                  { width: 778px; }
     .container .column,
     .container .columns                         { margin-left: 10px; margin-right: 10px;  }
-    .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
-    .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+    .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 0px; }
+    .column.omega, .columns.omega               { margin-right: 0; margin-left: 20px; }
 
     .container .span1			                      { width: 28px; }
     .container .span2			                      { width: 76px; }

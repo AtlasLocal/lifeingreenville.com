@@ -1,13 +1,13 @@
 @import "compass/css3/transition";
 
 #categories{
-	background: url(/images/categories/cat-dividers.png) repeat-y 323px 0;
-	margin: 40px 0 40px -20px;
+	background: url(/images/categories/cat-dividers.png) repeat-y top center;
+	margin: 40px 0;
 	
 	.content{
 		text-align: center;
 		a.catlink {
-			display: block;
+			display: inline-block;
 			width: 250px;
 			height: 214px;
 			border: 8px solid rgba(0,0,0,.1);

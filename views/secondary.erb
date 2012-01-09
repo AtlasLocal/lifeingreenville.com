@@ -3,7 +3,7 @@
 <div id="categories" class="row">
   
   <% articles.each_with_index do |a, i| %>
-  <div class="span<%= i % 3 == 1 ? 6 : 5 %>">
+  <div class="span-one-third<%= i % 3 == 0 ? ' column alpha' : '' %><%= i % 3 == 2 ? ' column omega' : '' %>">
     <div class="content">
       <h2><a href="<%= a.permalink %>" title="<%= a.title %>"><%= a.title %></a></h2>
       <p><%= a.description %></p>
