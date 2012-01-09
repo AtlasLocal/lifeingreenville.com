@@ -2,7 +2,7 @@
 
   $(document).ready(function() {
     var scrollBannerBG;
-    if (detect === 'iPhone') return;
+    if (ios) return;
     scrollBannerBG = function() {
       var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
       width = $(window).width();
