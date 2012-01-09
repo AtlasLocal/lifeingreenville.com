@@ -33,15 +33,15 @@ body.home .main {
 	background: transparent;
 }
 
-
-a {
-	text-decoration:underline
-}
-
 a:hover, a.current {
 	color: #3f6230;
+a {
 	text-decoration: underline;
+	&:hover, a.current {
+		color: #3f6230;
+	}
 }
+
 
 #video {
 	margin-top: 0px;
