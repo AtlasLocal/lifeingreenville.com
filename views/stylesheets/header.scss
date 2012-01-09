@@ -25,12 +25,12 @@ nav {
 		margin-top: 20px;
 
 		@include transition(all);
-		@include transition-duration(0.2s);	
+		@include transition-duration(0.1s);	
 		@include transition-timing-function(ease-out);
 
 
 		&:hover {
-			top: -4px;
+			top: -5px;
 		}
 	}	
 
