@@ -41,6 +41,7 @@ a:hover, a.current {
 #video {
 	margin-top: 0px;
 	margin-right: -80px;
+	min-height: 600px;
 }
 
 
@@ -56,7 +57,7 @@ a:hover, a.current {
 
 .crumb-wrapper {
 	width: 100%;
-  background: #fff;
+  	background: #fff;
 	border-bottom: 4px double #DADADA;
 }
 
