@@ -10,7 +10,7 @@ banner_image_caption: Greenville hosts the USA Pro Cycling Championship each yea
 ## Quality of life
 
 ### Healthy Living
-In Greenville, options for eating and living healthy abound. Two major hospital systems care for our community in addition to holistic and alternative practices. Year-round and seasonal farmers markets as well as the new Swamp Rabbit Cafe & Grocery offer fresh food from local farmers. Healthy supermarkets including Earth Fare and Whole Foods provide a wide variety of organic foods. Greenville is also home to the first official Slow Food Earth Market in the US (http://www.earthmarkets.net/network/greenville).
+In Greenville, options for eating and living healthy abound. Two major hospital systems care for our community in addition to holistic and alternative practices. Year-round and seasonal farmers markets as well as the new Swamp Rabbit Cafe & Grocery offer fresh food from local farmers. Healthy supermarkets including Earth Fare and Whole Foods provide a wide variety of organic foods. Greenville is also home to the first official [Slow Food Earth Market](http://www.earthmarkets.net/network/greenville) in the US .
 
 ![My Image Text](/images/cooking.jpg "Optional title") 
 ### Green Spaces
