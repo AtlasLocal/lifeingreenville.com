@@ -1,5 +1,5 @@
 title: Cultured
-category_tagline: There's no shortage of enrichment and artistry.
+category_tagline: Greenville boasts a wealth of enrichment and artistry.
 category_image: cat-life-festival.jpg
 banner_sub_headline: Cultured
 banner_tagline: A mosaic of creativity and community
