@@ -24,6 +24,8 @@ body.visit{
   }
 	
 	article {
+    border-right: 0;
+    
 		> h2{
 			font-size: 25px;
 			font-weight: 600;
@@ -80,7 +82,7 @@ body.visit{
 		}
 		
 		.visit{
-			margin-bottom: 90px;
+			margin-bottom: 3em;
 			
 			
 			h3{
