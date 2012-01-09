@@ -85,15 +85,20 @@
 		        }
 			}
 		}	
-    	
- 
-		#categories {
-			background: none;
-		}
+
     
     #categories {
+    	background: none;
     	.container .span6 { 
     		width: 220px;
+    	}
+    	.content{
+	    	a.catlink,
+	    	a.catlink img {
+	    		width: 200px;
+	    		height: 171px;
+	    		margin: 0 auto;
+	    	}
     	}
     }
     
