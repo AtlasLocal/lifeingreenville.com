@@ -51,13 +51,27 @@ a {
 }
 
 
-#video {
+#video.rnd-1 {
 	margin-top: 0px;
 	margin-right: -80px;
 	min-height: 600px;
 	background: url(/images/banners/home-lg.jpg) no-repeat center center;
 	background-size: cover;
 }
+
+#video.rnd-2 {
+	background: url(/images/banners/home-coffee-lg.jpg) no-repeat center center;
+}
+
+#video.rnd-3 {
+	background: url(/images/banners/home-cycle-lg.jpg) no-repeat center center;
+}
+
+#video.rnd-4 {
+	// not used atm
+	background: url(/images/banners/home-fridge-lg.jpg) no-repeat center center;
+}
+
 
 body.not-found #video {
 	background: url(/images/banners/404.jpg) no-repeat center center;

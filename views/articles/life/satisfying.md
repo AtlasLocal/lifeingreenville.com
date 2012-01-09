@@ -7,10 +7,7 @@ banner_image_caption: Greenville hosts the USA Pro Cycling Championship each yea
 
 # Life / Satisfying
 
-## 3-5 word subheading/tagline here
-
-### Quality of Life
-Some bozo text here based on what's in the google doc.
+## Quality of life
 
 ### Healthy Living
 In Greenville, options for eating and living healthy abound. Two major hospital systems care for our community, while year-round and seasonal farmers markets offer fresh food from local farmers. Greenville is also home to the first official Slow Food Earth Market in the US (http://www.earthmarkets.net/network/greenville).
