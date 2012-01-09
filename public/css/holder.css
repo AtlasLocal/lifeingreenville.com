@@ -1,0 +1,86 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+} 
+
+
+ /* PRIMARY STYLES
+    Author: CoWork Greenville (http://www.coworkgreenville.com)
+ */
+ 
+
+body {
+	background: url(/images/holder/logo.jpg) top center no-repeat;
+	font-family: ff-dagny-web-pro, Helvetica, sans-serif;
+	text-align: center;
+}
+#container {
+	background: url(/images/holder/dividers.png) top left repeat-x;
+	background: url(/images/holder/dividers.png) top left repeat-x, 
+				url(/images/holder/dividers.png) bottom left repeat-x;
+	width: 750px;
+	margin: 465px auto 30px auto;
+	padding: 60px 0 60px 0;
+}
+h1 {
+	margin: 0 auto 30px auto;
+	font-size: 27px;
+	color: #99c745;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+p {
+	font-size: 15px;
+	color: #3f6230;
+	line-height: 1.8em;
+	margin: 0 60px;
+}
+p a {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 85%;
+	text-decoration: none;
+	color: #99c745;
+	border-bottom: 2px solid #99c745;
+	margin: 0 2px;
+}
+p a:hover {
+	color: #d5c937;
+}
+p.green {
+	background: #3f6230;
+	color: #FFF;
+	width: 650px;
+	margin: 0 auto;
+	padding: 7px 0;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+
+.wf-loading h1,
+.wf-loading p {
+  visibility: hidden;
+}
+.wf-active h1,
+.wf-active p {
+	visibility: visible;
+}
+
+
+
+
+
