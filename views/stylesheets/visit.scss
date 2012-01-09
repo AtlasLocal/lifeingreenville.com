@@ -19,17 +19,26 @@ body.visit{
 		}
 	}
 	
-	article > h2{
-		font-weight: 600;
-		color: #416331;
-	}
-	
-	article h3{
-		color: #98c642;
-	}
-	
-	article img{
-		margin-bottom: 48px;
+	article {
+		> h2{
+			font-size: 25px;
+			font-weight: 600;
+			color: #416331;
+		}
+		h3 {
+			color: #98c642;
+		}
+		img {
+			margin-bottom: 48px;
+		}
+		p {
+			line-height: 24px;
+		}
+		p.pfirst {
+			font-family: "kulturista-web", serif;
+			font-weight: 400;
+			font-size: 14px;
+		}
 	}
 	
 	.visitcon{

@@ -220,13 +220,18 @@ span.credit {
 }
 
 // Home Page Banner (video overlay)
-.home {
+.home, .not-found {
 	
 	.main {
 		width: 100%;
 		top: 180px;
 		position: absolute;
 		z-index: 100;
+		background: transparent;
+	}
+
+	.container {
+		background: transparent;
 	}
 
 	.home-banner {
@@ -244,7 +249,7 @@ span.credit {
 			padding: 0px 10px;
 		}
 		h2 {
-			margin-top: 40px;
+			margin-top: 11px;
 			padding-left: 10px;
 			padding: 5px 10px;
 			color: #FFF;
@@ -253,18 +258,20 @@ span.credit {
 			font-style: italic;
 			background-color: rgba(0,0,0,0.5);
 			display: inline-block;
-			a {
-				text-transform: uppercase;
-				color: #97c93c;
-				font-weight: bolder;
-				font-style: normal;
-			}
+
 		}
+
+		a {
+			text-transform: uppercase;
+			color: #97c93c;
+			font-weight: bolder;
+			font-style: normal;
+		}		
 	}
 }
 
 @media only screen and (max-width: 550px) {
-	.home .home-banner {
+	.home-banner {
 		
 		h1 {
 			font-size: 24px;
@@ -274,7 +281,7 @@ span.credit {
 }
 
 @media only screen and (max-width: 801px) and (min-width: 551px) {	
-	.home .home-banner {
+	.home-banner {
 		h1 {
 			font-size: 40px;
 			line-height: 55px;

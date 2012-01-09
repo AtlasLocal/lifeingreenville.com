@@ -71,7 +71,9 @@ get '/:category/:name' do
 end
 
 not_found do
-  '404 Error, oops!'
+  set :ignore_header, true
+  params[:category] = 'not-found'
+  erb :'404'
 end
 
 error do
