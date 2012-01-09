@@ -33,6 +33,8 @@ body.home .main {
 	background: transparent;
 }
 
+a:hover, a.current {
+	color: #3f6230;
 a {
 	text-decoration: underline;
 	&:hover, a.current {
