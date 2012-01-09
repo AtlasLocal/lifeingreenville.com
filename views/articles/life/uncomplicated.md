@@ -1,5 +1,5 @@
 title: Uncomplicated
-category_tagline: Everything you need, within reach.
+category_tagline: Everything you need,<br> within reach.
 category_image: cat-life-apples.jpg
 banner_sub_headline: Uncomplicated
 banner_tagline: Make a life, not just a living.

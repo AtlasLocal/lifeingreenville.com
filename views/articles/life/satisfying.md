@@ -1,5 +1,5 @@
 title: Satisfying
-category_tagline: Whatever your priorities, you'll find options here.
+category_tagline: Whatever your priorities,<br> you'll find options here.
 category_image: cat-life-cycling.jpg
 banner_sub_headline: Satisfying
 banner_tagline: Find what you've been looking for
