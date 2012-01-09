@@ -45,6 +45,19 @@ body.visit{
 			font-weight: 400;
 			font-size: 14px;
 		}
+    
+    ul {
+      margin-top: 0;
+      margin-left: 0;
+      
+      ul {
+        margin-left: 16px;
+      }
+    }
+    
+    li {
+      margin-left: 0;
+    }
 	}
 	
 	.visitcon{
