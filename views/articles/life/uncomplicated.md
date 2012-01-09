@@ -1,9 +1,9 @@
 title: Uncomplicated
-category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+category_tagline: Everything you need, within reach.
 category_image: cat-life-apples.jpg
 banner_sub_headline: Uncomplicated
-banner_tagline: Example stuff about life here
-banner_image_caption: Hell, yeah, tacos!
+banner_tagline: Make a life, not just a living.
+banner_image_caption: Nearby apple orchards make for fun outings and delicious treats.
 
 # Life / Uncomplicated
 
