@@ -4,10 +4,13 @@ body.visit{
 		height: 295px;
 		
 		h1{
+			font-size: 75px;
+			font-weight: 600;
 			color: #d5cc25;
 			text-transform: capitalize;
 			display: block;
 			background: url(/images/double-border.png) repeat-x 0 bottom;
+			padding-bottom: 28px;
 		}
 		
 		div.headline{
@@ -17,6 +20,7 @@ body.visit{
 	}
 	
 	article > h2{
+		font-weight: 600;
 		color: #416331;
 	}
 	
