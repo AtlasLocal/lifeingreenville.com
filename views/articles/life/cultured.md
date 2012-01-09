@@ -20,7 +20,7 @@ A haven for visual artists, the Greenville community supports many independent s
 * [Knack Studio](http://www.knackstudios.com/)
 * [First Fridays](http://www.firstfridaysonline.com/)
 
-![My Image Text](/images/cooking.jpg "Optional title") 
+![My Image Text](/images/article-images/CarolinaBallet.jpg "Carolina Ballet") 
 ### Theatre & Dance
 From community theatre to national tours, Greenville offers a broad performing arts experience. You can find Broadway shows like Les Miserables and The Lion King at The Peace Center. For a unique outdoor theatre experience, check out Shakespeare in the Park, a summer play series performed in Falls Park. Greenville's got you covered, whether you're a fan of ballet, comedy or interactive theater.
 
