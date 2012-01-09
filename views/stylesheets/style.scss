@@ -34,8 +34,11 @@ body.home .main {
 }
 
 a {
-	text-decoration: underline;
-	&:hover, a.current {
+	border-bottom: 1px solid #3e622d;
+	padding-bottom: 1px;
+	&:hover {
+		border-bottom: 1px solid #3f6230;
+		text-decoration: none;
 		color: #3f6230;
 	}
 }
@@ -70,7 +73,7 @@ a {
 }
 
 .breadcrumbs a, .breadcrumbs span {
-  padding: 0 5px;
+  margin: 0 5px;
   color: #3F6230;
 }
 

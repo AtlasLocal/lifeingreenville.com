@@ -19,14 +19,11 @@
     text-transform: uppercase; }
   
   a {
-    border-bottom: 1px solid #AEE198;
     color: #3f6230;
     font-style: italic;
     font-weight: 600;
-    text-decoration:underline;
-    
+
     &:hover {
-      text-decoration: none;
       color: #60884f; }
   }
   

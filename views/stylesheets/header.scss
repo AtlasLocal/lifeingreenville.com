@@ -51,7 +51,9 @@ nav {
 				color: #99c64d;
 				font-size: 1.4em;
 				margin-left: 15px;
-				line-height: 30px;				
+				line-height: 30px;
+				border: none;
+				padding-bottom: 0px;			
 			}		
 		}
 	}	
@@ -60,7 +62,8 @@ nav {
 body.life a.life,
 body.work a.work {
 	color: #3f6230;
-	text-decoration: underline;
+	border-bottom: 1px solid #3f6230;
+	padding-bottom: 1px;	
 }
 
 a#visit {
@@ -211,7 +214,6 @@ span.credit {
 
 	a {
 		color: #fff;
-		text-decoration: underline;
 	}
 }
 
