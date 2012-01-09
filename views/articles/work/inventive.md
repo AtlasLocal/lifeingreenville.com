@@ -7,7 +7,7 @@ banner_image_caption: Cowork Greenville is a beautiful space for independent col
 
 # A Creative Work Community
 
-## Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is your home.
+## Greenville is a Southern anomaly, a hotbed of technical entrepreneurship and creative talent. If you’re looking to create something meaningful, something unique, Greenville is a great place to call home.
 
 ![My Image Text](/images/article-images/CoWorkGreenville.jpg "CoWork Greenville")
 ### A Community of Makers
