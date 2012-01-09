@@ -110,6 +110,10 @@ a#visit:active {
 	text-indent: 0px;
 }
 
+body.visit a#visit {
+	display: none;
+}
+
 
 header {
 	font-family: "kulturista-web", serif;
