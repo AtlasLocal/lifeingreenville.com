@@ -1,9 +1,9 @@
 title: Cultured
-category_tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+category_tagline: Greenville boasts a wealth of enrichment and artistry.
 category_image: cat-life-festival.jpg
 banner_sub_headline: Cultured
-banner_tagline: Example stuff about life here
-banner_image_caption: Hell, yeah, tacos!
+banner_tagline: A mosaic of creativity and community
+banner_image_caption: Greenville's popular festivals bring huge crowds to downtown.
 
 # Life / Cultured
 
@@ -14,7 +14,7 @@ A haven for visual artists, the Greenville community supports many independent s
 
 ![My Image Text](/images/cooking.jpg "Optional title") 
 ### Theatre & Dance
-From community theatre to national tours, Greenville offers a broad performing arts experience. You can find Broadway shows like Les Miserables and The Lion King at The Peace Center. For a unique outdoor theatre experience, check out Shakespeare in the Park, a summer play series performed in Falls Park. Greenville's got you covered, whether a fan of ballet, comedy or interactive theater.
+From community theatre to national tours, Greenville offers a broad performing arts experience. You can find Broadway shows like Les Miserables and The Lion King at The Peace Center. For a unique outdoor theatre experience, check out Shakespeare in the Park, a summer play series performed in Falls Park. Greenville's got you covered, whether you're a fan of ballet, comedy or interactive theater.
 
 ### Music
 Greenville's downtown arena, the Bilo Center, attracts national acts including The Avett Brothers, Josh Groban, Prince and Guns N’ Roses. You can find a more intimate music setting at The Handlebar, just three blocks from Main Street. Digging some live jazz? Head over to the Brown Street Club, an upscale venue in the heart of downtown.
