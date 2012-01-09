@@ -39,7 +39,7 @@ article > h2 {
 	margin-bottom: 15px;
 }
 
-article p {
+article p, article ul {
 	margin-bottom: 28px;
 }
 
@@ -58,6 +58,10 @@ article img {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;	
+}
+
+article ul {
+  margin-top: -1.5em;
 }
 
 aside.span4 {
