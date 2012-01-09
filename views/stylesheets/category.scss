@@ -1,15 +1,25 @@
+@import "compass/css3/transition";
+
 #categories{
 	background: url(/images/categories/cat-dividers.png) repeat-y 323px 0;
 	margin: 40px 0 40px -20px;
 	
 	.content{
 		text-align: center;
-		img {
+		a.catlink {
+			display: block;
+			width: 250px;
+			height: 214px;
 			border: 8px solid rgba(0,0,0,.1);
 			border-radius: 8px;
 			-webkit-border-radius: 8px;
 			-moz-border-radius: 8px;
-		}
+      @include transition(opacity);
+			@include transition-duration(0.3s);
+		}		
+		a.catlink:hover {
+			border: 8px solid rgba(0,0,0,.15);
+		}	
 	}
 	
 	.span6 .content{
