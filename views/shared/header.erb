@@ -100,8 +100,11 @@
 
       <div class="headline">
         <h1><%= category.name.capitalize %></h1>
+        <% if params[:name] %>
         <span class="forward">/</span>
         <h2><%= data[:banner_sub_headline] %></h2>
+        <% end %>
+        <br>
         <h3><%= data[:banner_tagline] %></h3>
       </div>
       
