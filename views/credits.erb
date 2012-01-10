@@ -3,7 +3,7 @@
   <section class="organization" id="cowork">
     <img src="/images/cowork_logo.png" alt="CoWork Greenville Logo"/>
     <div class="info cf">
-      <h3 class="title">CoWork</h3>
+      <h3>CoWork</h3>
       <div class="meta">
         <a href="http://twitter.com/cowork" title="Follow us on Twitter!" title="_blank">@cowork</a>
         <span> | </span>
@@ -19,155 +19,178 @@
         role: "Designer",
         twitter: "whale",
         website: "http://squaredeye.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "matthew.jpg"
       },
       {
         name: "Marco Suarez",
         role: "Designer",
         twitter: "marcosuarez",
         website: "http://marcosuarez.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "marco.jpg"
       },
       {
         name: "Andrew Ramos",
         role: "Designer",
         twitter: "andrewramos",
         website: "http://andrewramos.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "andrew.jpg"
       },
       {
         name: "Jeremy Jantz",
         role: "Designer",
         twitter: "jeremyjantz",
         website: "http://headlampcreative.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "jeremy.jpg"
       },
       {
         name: "Mason Stewart",
         role: "Developer",
         twitter: "masondesu",
         website: "http://masondesu.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "mason.jpg"
       },
       {
         name: "Ronnie Taylor",
         role: "Developer",
         twitter: "rontec76",
         website: "http://ronnietaylor.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "ronnie.jpg"
       },
       {
         name: "Mark Johnson",
         role: "Developer",
         twitter: "wmdmark",
         website: "http://duointeractive.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "mark.jpg"
       },
       {
         name: "Alan Rodgers",
         role: "Developer",
         website: "http://ronnietaylor.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "alan.jpg"
       },
       {
         name: "Ryan Wood",
         role: "Developer",
         twitter: "ryanwood",
         website: "http://sourcescape.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "ryan.jpg"
       },
       {
         name: "Sean Gaffney",
         role: "Developer",
         twitter: "seangaffney",
         website: "http://seangaffney.cc",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "sean.jpg"
       },
       {
         name: "Marshall Klickman",
         role: "Developer",
         twitter: "mklickman",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "marshall.png"
       },
       {
         name: "Chandler Van De Water",
         role: "Developer",
         twitter: "chandlervdw",
         website: "http://chandlervdw.com",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "chandler.jpg"
       },
       {
         name: "Paul Johnson",
         role: "Content Developer",
         twitter: "paul_johnson",
         website: "http://duointeractive.com",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "paul.jpg"
       },
       {
         name: "Dodd Caldwell",
         role: "Content Developer",
         twitter: "doddcaldwell",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "dodd.jpg"
       },
       {
         name: "Chris Merritt",
         role: "Content Developer",
         twitter: "chrismerritt",
         website: "http://chrismerritt.tumblr.com",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "chris.jpg"
       },
       {
         name: "Peter Barth",
         role: "Content Developer",
         twitter: "peterbarth",
         website: "http://thenextbig.co",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "peter_barth.jpg"
       },
       {
         name: "Katie Stewart",
         role: "Content Developer",
         twitter: "chaithoughts",
         website: "http://about.me/katiestewart",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "katie.jpg"
       },
       {
         name: "Elizabeth Ramos",
         role: "Content Developer",
         twitter: "elizabethramos",
         website: "http://elizabethramos.com",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "elizabeth.jpg"
       },
       {
         name: "Erin Godbey",
         role: "Content Developer",
         twitter: "eringodbey",
         website: "http://indiecraftparade.com",
-        about: "Volunteer"
+        about: "Volunteer",
+        photo: "erin.jpg"
       },
       {
         name: "Jamin Jantz",
         role: "Project Manager",
         twitter: "jaminjantz",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "jamin.png"
       },
       {
         name: "Matthew Cook",
         role: "Project Manager",
         twitter: "mattecook",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "matt.jpg"
       },
       {
         name: "TJ &amp; Michelle Getz",
         role: "Photographers",
         twitter: "getzcreative",
         website: "http://getzcreative.com",
-        about: "Volunteers"
+        about: "Volunteers",
+        photo: "getz.jpg"
       },
       {
         name: "Bryan Martin",
         role: "Photographer",
         twitter: "bryanrmartin",
-        about: "Member of CoWork"
+        about: "Member of CoWork",
+        photo: "bryan.jpg"
       }
    ] %>
 
@@ -175,7 +198,7 @@
       <% people.each_with_index do |p, i| %>
       <li class="span8 <%= i % 2 == 1 ? 'alpha' : '' %>column alpha">
         <span class="avatar-frame">
-          <img class="avatar" alt="Photo of <%= p[:name] %>" src="http://placehold.it/90/90"/>
+          <img class="avatar" alt="Photo of <%= p[:name] %>" src="/images/avatars/<%= p[:photo] %>" width="90" height="90"/>
         </span>
         <div class="person_info">
           <h5><%= p[:name] %> <span class="role">/ <%= p[:role] %></span></h5>
@@ -198,52 +221,59 @@
   </section><!-- .organization#cowork -->
   
   <section class="organization" id="getz_creative">
-    <img src="#" alt="Getz Creative Logo"/>
-    <div class="person_info">
-      <h3 class="title">Getz Creative</h3>
-      <ul>
-        <li><a href="http://twitter.com/getzcreative" title="Follow us on Twitter!" title="_blank">@getzcreative</a></li>
-        <li><a href="http://getzcreative.com" title="Check out more about Getz Creative">http://getzcreative.com</a></li>
-        <li class="last"><a href="mailto:shootme@getzcreative.com" title="Email us (we promise to write back)!">shootme@getzcreative.com</a></li>
-      </ul>
+    <img alt="Getz Creative Logo" src="/images/avatars/getz.jpg" />
+    <div class="info">
+      <h3>Getz Creative</h3>
+      <div class="meta">
+        <a href="http://twitter.com/getzcreative" title="Follow us on Twitter!" title="_blank">@getzcreative</a>
+        <span> | </span>
+        <a href="http://getzcreative.com" title="Check out more about Getz Creative">http://getzcreative.com</a>
+        <span> | </span>
+        <a href="mailto:shootme@getzcreative.com" title="Email us (we promise to write back)!">shootme@getzcreative.com</a>
+      </div>
       <p>commodo nisl non erat ullamcorper dignissim. Curabitur et augue felis, sed volutpat nunc. Vivamus accumsan ligula ac augue lacinia gravida. Constur adipiscing elit. Sed vel libero ante, et faucibus nunc. Vivamus.</p>
     </div><!-- .info -->
   </section><!-- .organization#getz_creative -->
 
-  <section class="organization" id="next_big_thing">  
-    <img src="#" alt="The Next Big Thing Logo"/>
+  <section class="organization" id="next_big_thing">
+    <img alt="The Next Big Thing Logo" src="/images/avatars/nextbigthing.gif"/>
     <div class="info cf">
-      <h3 class="title">The Next Big Thing</h3>
-      <ul>
-        <li><a href="http://twitter.com/thenextbigco" title="Follow us on Twitter!" title="_blank">@thenextbigco</a></li>
-        <li><a href="http://thenextbig.co/greenville.html" title="Check out more about The Next Big Thing">http://thenextbig.co/greenville.html</a></li>
-        <li class="last"><a href="mailto:info@thenextbig.co?Subject=General Inquiry" title="Email us">info@thenextbig.co</a></li>
-      </ul>
+      <h3>The Next Big Thing</h3>
+      <div class="meta">
+        <a href="http://twitter.com/thenextbigco" title="Follow us on Twitter!" title="_blank">@thenextbigco</a>
+        <span> | </span>
+        <a href="http://thenextbig.co/greenville.html" title="Check out more about The Next Big Thing">http://thenextbig.co/greenville.html</a>
+        <span> | </span>
+        <a href="mailto:info@thenextbig.co?Subject=General Inquiry" title="Email us">info@thenextbig.co</a>
+      </div>
       <p>commodo nisl non erat ullamcorper dignissim. Curabitur et augue felis, sed volutpat nunc. Vivamus accumsan ligula ac augue lacinia gravida. Constur adipiscing elit. Sed vel libero ante, et faucibus nunc. Vivamus.</p>
     </div><!-- .info -->
   </section><!-- .organization#next_big_thing -->
   
-  <section class="organization" id="greenville_chamber">  
-    <img src="#" alt="Greenville Chamber of Commerce Logo"/>
+  <section class="organization" id="greenville_chamber">
+    <img alt="Greenville Chamber of Commerce Logo" src="/images/avatars/chamber.gif"/>
     <div class="info cf">
-      <h3 class="title">Greenville Chamber of Commerce</h3>
-      <ul>
-        <li><a href="http://twitter.com/gvillechamber" title="Follow us on Twitter!" title="_blank">@gvillechamber</a></li>
-        <li class="last"><a href="http://greenvillechamber.org" title="Check out more about the Greenville Chamber of Commerce">http://greenvillechamber.org</a></li>
-      </ul>
+      <h3>Greenville Chamber of Commerce</h3>
+      <div class="meta">
+        <a href="http://twitter.com/gvillechamber" title="Follow us on Twitter!" title="_blank">@gvillechamber</a>
+        <span> | </span>
+        <a href="http://greenvillechamber.org" title="Check out more about the Greenville Chamber of Commerce">http://greenvillechamber.org</a>
+      </div>
       <p>commodo nisl non erat ullamcorper dignissim. Curabitur et augue felis, sed volutpat nunc. Vivamus accumsan ligula ac augue lacinia gravida. Constur adipiscing elit. Sed vel libero ante, et faucibus nunc. Vivamus.</p>
     </div><!-- .info -->
   </section><!-- .organization#next_big_thing -->
   
   <section class="organization" id="indiecraft">
-    <img src="#" alt="Indie Craft Parade Logo"/>
+    <img alt="Indie Craft Parade Logo" src="/images/avatars/indiecraft.gif"/>
     <div class="info cf">
-      <h3 class="title">Indie Craft Parade</h3>
-      <ul>
-        <li><a href="http://twitter.com/craftparade" title="Follow us on Twitter!" title="_blank">@craftparade</a></li>
-        <li><a href="http://indiecraftparade.com" title="Check out more about the Indie Craft Parade">http://indiecraftparade.com</a></li>
-        <li class="last"><a href="mailto:info@indiecraftparade.com" title="Email us (we promise to write back)!">info@indiecraftparade.com</a></li>
-      </ul>
+      <h3>Indie Craft Parade</h3>
+      <div class="meta">
+        <a href="http://twitter.com/craftparade" title="Follow us on Twitter!" title="_blank">@craftparade</a>
+        <span> | </span>
+        <a href="http://indiecraftparade.com" title="Check out more about the Indie Craft Parade">http://indiecraftparade.com</a>
+        <span> | </span>
+        <a href="mailto:info@indiecraftparade.com" title="Email us (we promise to write back)!">info@indiecraftparade.com</a>
+      </div>
       <p>commodo nisl non erat ullamcorper dignissim. Curabitur et augue felis, sed volutpat nunc. Vivamus accumsan ligula ac augue lacinia gravida. Constur adipiscing elit. Sed vel libero ante, et faucibus nunc. Vivamus.</p>
     </div><!-- .info -->
   </section><!-- .organization#getz_creative -->
