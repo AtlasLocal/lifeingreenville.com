@@ -20,6 +20,12 @@ $(document).ready ->
 		$(window).bind 'resize', (e)->
 			scrollBannerBG()
 	else
+		window.lsp = 0
 		$(document).bind 'touchmove', (e)->
 			scrollBannerBG()
+			window.lsp = $(window).scrollTop()
+		window.usp = ->  scrollBannerBG() if $(window).scrollTop() != window.lsp
+		setInterval('usp()', 300)
+		
+		
 	scrollBannerBG()
