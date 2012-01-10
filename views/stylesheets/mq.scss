@@ -288,7 +288,7 @@
     			margin: 0 auto;
     	}
     	[class*="span"] {
-    		margin-left: 20px;
+    		margin-left: 0;
     	}
 		}
 
@@ -428,6 +428,9 @@
 	    	a.catlink img {
 	    		margin: 0 auto;
 	    	}
+    	}
+    	[class*="span"] {
+    		margin-left: 0;
     	}
     }
 
