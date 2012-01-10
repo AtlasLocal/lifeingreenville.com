@@ -77,6 +77,8 @@
     .container .offset14              					{ padding-left: 672px; }
     .container .offset15               					{ padding-left: 720px; }
     
+		.main .container { width: 710px; }
+    
 		.life .container .offset1 {
 			padding-left: 0;
 		}
@@ -119,8 +121,9 @@
 			position: static;
 			#footer_nav {
 				.container .span3 {
-					width: 100px;
+					width: 127px;
 				}
+				#cowork_credit.offset10 { margin-left: 460px; }
 			}
     }
 }
