@@ -1,6 +1,9 @@
 (function() {
   $(document).ready(function() {
-    var interval, scrollBannerBG;
+    var scrollBannerBG;
+    if (ios) {
+      return;
+    }
     scrollBannerBG = function() {
       var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
       width = $(window).width();
@@ -18,23 +21,12 @@
         'background-position': "50% " + bannerVerticalPos + "px"
       });
     };
-    if (!ios) {
-      $(window).bind("scroll", function(e) {
-        return scrollBannerBG();
-      });
-      $(window).bind('resize', function(e) {
-        return scrollBannerBG();
-      });
-    } else {
-      window.lastScrollPosition = 0;
-      window.doMobileParallax = function() {
-        if ($(window).scrollTop() !== window.lastScrollPosition) {
-          window.lastScrollPosition = $(window).scrollTop();
-          return scrollBannerBG();
-        }
-      };
-      interval = setInterval('doMobileParallax()', 30);
-    }
+    $(window).bind("scroll", function(e) {
+      return scrollBannerBG();
+    });
+    $(window).bind('resize', function(e) {
+      return scrollBannerBG();
+    });
     return scrollBannerBG();
   });
 }).call(this);

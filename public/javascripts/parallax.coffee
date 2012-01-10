@@ -1,5 +1,5 @@
 $(document).ready ->
-	
+	return if ios	
 	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560
@@ -13,20 +13,10 @@ $(document).ready ->
 		$("header").css
 			'background-position': "50% #{bannerVerticalPos}px"
 	
-	if not ios
-		$(window).bind "scroll", (e)->
-			scrollBannerBG()
-		
-		$(window).bind 'resize', (e)->
-			scrollBannerBG()
-	else
-		window.lastScrollPosition = 0
-		window.doMobileParallax = ->
-			if $(window).scrollTop() != window.lastScrollPosition
-				window.lastScrollPosition = $(window).scrollTop()
-				scrollBannerBG()
-		interval = setInterval('doMobileParallax()', 30)
 
+	$(window).bind "scroll", (e)->
+		scrollBannerBG()
 	
-	
+	$(window).bind 'resize', (e)->
+		scrollBannerBG()		
 	scrollBannerBG()
