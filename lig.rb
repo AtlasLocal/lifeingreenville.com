@@ -22,15 +22,15 @@ end
 
 get '/' do
   set :ignore_header, true
-  # user placeholder until launch, use home route to test home page
-  erb :placeholder, :layout => false
-  # erb :index
-end
-
-get '/home' do
-  set :ignore_header, true
+  # use placeholder until launch, use home route to test home page
+  # erb :placeholder, :layout => false
   erb :index
 end
+
+# get '/home' do
+#   set :ignore_header, true
+#   erb :index
+# end
 
 
 get '/stylesheets/:name.css' do

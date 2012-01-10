@@ -88,10 +88,17 @@ ul li, ol li {
 }
 
 #video.rnd-4 {
+	background: url(/images/banners/home-rainbow-lg.jpg) no-repeat center center;
+}
+
+#video.rnd-5 {
+	background: url(/images/banners/home-wall-lg.jpg) no-repeat center center;
+}
+
+#video.rnd-6 {
 	// not used atm
 	background: url(/images/banners/home-fridge-lg.jpg) no-repeat center center;
 }
-
 
 body.not-found #video {
 	background: url(/images/banners/404.jpg) no-repeat center center;
