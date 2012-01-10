@@ -303,6 +303,17 @@
     	}
 		}
 
+		body.visit {
+			article {
+				img#map {
+					width: 300px;
+					height: 279px;
+					padding-bottom: 15px;
+					margin-left: 0;
+				}
+			}
+		}
+
 		#footer {
 			position: static;
 			#footer_nav {
