@@ -13,4 +13,4 @@ Greenville offers office space for business of all sizes at incredibly competiti
 
 For independent workers, Greenville boasts several great collaborative workspaces. The NEXT Center houses a wide array of high impact technology startups, contractors, and established business. CoWork Greenville offers spaces by the day, week, or month to those in the creative and web industries.
 
-![My Image Text](/images/article-images/RiverWalk.jpg "Downtown Greenville")
+![My Image Text](/images/article-images/Riverwalk.jpg "Downtown Greenville")
