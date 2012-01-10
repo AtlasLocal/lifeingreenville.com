@@ -284,8 +284,8 @@
 	    		margin: 0 auto;
 	    	}
     	}
-    	.span-one-third.column.alpha {
-    			margin: 0 auto;
+    	.span-one-third {
+    			margin-bottom: 15px;
     	}
     	[class*="span"] {
     		margin-left: 0;
@@ -431,6 +431,9 @@
     	}
     	[class*="span"] {
     		margin-left: 0;
+    	}
+    	.span-one-third {
+    			margin-bottom: 15px;
     	}
     }
 
