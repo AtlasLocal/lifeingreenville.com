@@ -1,5 +1,5 @@
 $(document).ready ->
-	return if ios	
+	
 	scrollBannerBG = ->
 		width = $(window).width()
 		bannerHeight = 560
@@ -13,10 +13,13 @@ $(document).ready ->
 		$("header").css
 			'background-position': "50% #{bannerVerticalPos}px"
 	
-
-	$(window).bind "scroll", (e)->
-		scrollBannerBG()
-	
-	$(window).bind 'resize', (e)->
-		scrollBannerBG()		
+	if not ios
+		$(window).bind "scroll", (e)->
+			scrollBannerBG()
+		
+		$(window).bind 'resize', (e)->
+			scrollBannerBG()
+	else
+		$(document).bind 'touchmove', (e)->
+			scrollBannerBG()
 	scrollBannerBG()

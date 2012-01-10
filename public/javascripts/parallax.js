@@ -1,9 +1,6 @@
 (function() {
   $(document).ready(function() {
     var scrollBannerBG;
-    if (ios) {
-      return;
-    }
     scrollBannerBG = function() {
       var bannerHeight, bannerVerticalPos, bgHeight, offset, width;
       width = $(window).width();
@@ -21,12 +18,18 @@
         'background-position': "50% " + bannerVerticalPos + "px"
       });
     };
-    $(window).bind("scroll", function(e) {
-      return scrollBannerBG();
-    });
-    $(window).bind('resize', function(e) {
-      return scrollBannerBG();
-    });
+    if (!ios) {
+      $(window).bind("scroll", function(e) {
+        return scrollBannerBG();
+      });
+      $(window).bind('resize', function(e) {
+        return scrollBannerBG();
+      });
+    } else {
+      $(document).bind('touchmove', function(e) {
+        return scrollBannerBG();
+      });
+    }
     return scrollBannerBG();
   });
 }).call(this);
