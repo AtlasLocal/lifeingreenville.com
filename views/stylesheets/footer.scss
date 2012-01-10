@@ -2,13 +2,15 @@
 @import "compass/css3/transform";
 
 #footer {
-/*  height: 59px;*/
   background: #fff;
   border-top: 1px solid #ccc;
-/*  border-bottom: 4px double #ccc;*/
   margin: 0;
   padding: 0;
-/*  overflow: hidden;*/
+  position:fixed;
+  bottom:0;
+  left:0;
+  z-index:2000;
+  width:100%;
   @include transition(all);
   @include transition-duration(0.4s);
   
@@ -71,7 +73,7 @@
     .row {
       border-top: 6px double #e5e5e5;
       border-bottom: 6px double #e5e5e5;
-      padding: 30px 0;
+      padding: 15px 0;
     }
     #cowork_credit {
       border-left: 6px double #e5e5e5;
@@ -86,7 +88,7 @@
     
     #site_credits {
       border: 0;
-      padding: 30px 0;
+      padding: 15px 0;
 
       p {
         color: #696969;
