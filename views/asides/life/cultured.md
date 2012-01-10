@@ -4,7 +4,7 @@
 * [White Whale Studios](http://www.whitewhalestudios.com/)
 * [Lily Pottery](http://lilypottery.blogspot.com/)
 * [Justin Gerard](http://www.justingerard.com/)
-* [Cory Godbey](http://coreygodbey.com)
+* [Cory Godbey](http://corygodbey.com/)
 * [Art & Light](http://www.artandlightgallery.com/)
 * [Art Crossing at Riverplace](http://www.artcrossing.org/)
 * [Knack Studio](http://www.knackstudios.com/)
