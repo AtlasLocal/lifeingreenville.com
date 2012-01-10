@@ -97,6 +97,9 @@
     		width: 220px;
     	}
     	.span-one-third {
+    		.alpha {
+    			margin-left: 20px;
+    		}
     		margin-left:0;
     		margin-right:0;
     	}
@@ -270,11 +273,20 @@
 
 		#categories { 
 			background: none;
-			
 			.span6 .content {
 				padding: 0;
 			}
-			
+    	.content{
+	    	a.catlink,
+	    	a.catlink img {
+	    		width: 200px;
+	    		height: 171px;
+	    		margin: 0 auto;
+	    	}
+    	}
+    	.span-one-third.column.alpha {
+    			margin: 0 auto;
+    	}
 		}
 
 		#footer {
