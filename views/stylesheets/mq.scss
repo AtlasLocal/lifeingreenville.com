@@ -96,8 +96,9 @@
     	.container .span6 { 
     		width: 220px;
     	}
-    	[class*="span"] {
+    	.span-one-third {
     		margin-left:0;
+    		margin-right:0;
     	}
     	.content{
 	    	a.catlink,
@@ -110,13 +111,19 @@
     }
     
     #categories .span6 .content { padding: 0; }
-    
-		#footer_nav {
-			.container .span3 {
-				width: 100px;
+
+		#footer {
+		  position: inherit;
+		  bottom:inherit;
+		  left:inherit;
+		  z-index:inherit;
+		  width:inherit;
+			#footer_nav {
+				.container .span3 {
+					width: 100px;
+				}
 			}
-		}
-    
+    }
 }
 
 
