@@ -26,9 +26,17 @@
         return scrollBannerBG();
       });
     } else {
+      window.lsp = 0;
       $(document).bind('touchmove', function(e) {
-        return scrollBannerBG();
+        scrollBannerBG();
+        return window.lsp = $(window).scrollTop();
       });
+      window.usp = function() {
+        if ($(window).scrollTop() !== window.lsp) {
+          return scrollBannerBG();
+        }
+      };
+      setInterval('usp()', 300);
     }
     return scrollBannerBG();
   });
