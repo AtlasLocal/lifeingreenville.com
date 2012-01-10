@@ -46,12 +46,13 @@ article p, article ul {
 article img {
 	float: left;
 	width: 218px;
-	height: 166px;
+/*  height: 166px;*/
 	border: 8px solid rgba(0,0,0,.1);
+  border-radius: 4px;
 	margin-bottom: 24px;
 	margin-top: 4px;
 	margin-left: -70px;
-	margin-right: 25px;
+	margin-right: 35px;
 	position: relative;
 	top: 8px;
   -webkit-transition: all .3s ease-in-out;
@@ -91,10 +92,18 @@ aside h3 {
 
 aside li {
   font-size: 108%;
-  line-height: 20px;
+}
+
+#more li {
+  
+  line-height: 1.4em;
   margin-bottom: 8px;
   list-style: square;
   color: #D5D5D5;
+  
+  span {
+    color: #404040;
+  }
 }
 
 aside li span {

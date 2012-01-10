@@ -25,7 +25,7 @@
     margin: 0; }
     
   li {
-    margin-bottom: 9px; }
+    margin-bottom: 16px; }
   
   #toggle {
     width: 100%;
@@ -74,11 +74,17 @@
       border-top: 6px double #e5e5e5;
       border-bottom: 6px double #e5e5e5;
       padding: 15px 0;
+      
+      .span3 {
+        width: 150px;
+        padding-right: 10px;
+      }
+      
     }
     #cowork_credit {
       border-left: 6px double #e5e5e5;
       color: #696969;
-      height: 175px;
+/*      height: 175px;*/
       padding-left: 30px;
       
       p {
