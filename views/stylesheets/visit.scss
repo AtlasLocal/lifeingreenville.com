@@ -114,7 +114,7 @@ body.visit{
 			margin-left: 30px;
 		}
 		
-		.visit{
+		body.visit{
 			margin-bottom: 3em;
 			h3{
 				margin-bottom: 15px;
@@ -122,10 +122,13 @@ body.visit{
 				line-height: 38px;
 				margin-left: -55px;
 			}
-			img#map {
-				width: 300px;
-				height: 279px;
-				padding-bottom: 15px;
+			article {
+				img#map {
+					width: 300px;
+					height: 279px;
+					padding-bottom: 15px;
+					margin-left: 0;
+				}
 			}
 		}
 		
