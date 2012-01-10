@@ -304,6 +304,9 @@
 		}
 
 		body.visit {
+			header h1 {
+				font-size: 3.85em;
+			}
 			article {
 				img#map {
 					width: 300px;
