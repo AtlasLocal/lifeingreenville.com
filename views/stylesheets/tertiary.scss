@@ -45,7 +45,7 @@ article p, article ul {
 
 article img {
 	float: left;
-	width: 218px;
+	max-width: 400px;
 /*  height: 166px;*/
 	border: 8px solid rgba(0,0,0,.1);
   border-radius: 4px;
