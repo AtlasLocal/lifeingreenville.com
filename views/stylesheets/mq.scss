@@ -287,6 +287,9 @@
     	.span-one-third.column.alpha {
     			margin: 0 auto;
     	}
+    	[class*="span"] {
+    		margin-left: 20px;
+    	}
 		}
 
 		#footer {
