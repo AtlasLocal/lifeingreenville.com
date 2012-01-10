@@ -50,21 +50,22 @@ nav {
 				text-decoration: none;
 				border: 0;
 				font-style: normal;
-				font-weight: 600;
+				font-weight: 700;
 				color: #99c64d;
 				font-size: 1.4em;
 				margin-left: 15px;
-				line-height: 30px;				
+				line-height: 30px;
 			}		
 		}
 	}	
 }
 
-body.life a.life,
-body.work a.work {
+body.life a.work,
+body.work a.life {
 	color: #3f6230;
-	border-bottom: 1px solid #3e622d;
+	border-bottom: 1px solid #99C745;
 	padding-bottom: 1px;
+  font-weight: 600;
 }
 
 a#visit {
