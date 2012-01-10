@@ -22,7 +22,7 @@ $(document).ready(function() {
     
     $('#toggle').toggle(function(e) {
         $('#footer_nav').slideDown(500);
-        $.scrollTo('+='+footerHeight+'px', 500, {easing: 'swing'});
+        // $.scrollTo('+='+footerHeight+'px', 500, {easing: 'swing'});
         $(this).removeClass('up').addClass('down');
       }, function(e) {
         $('#footer_nav').slideUp(300, 'swing');
