@@ -96,6 +96,9 @@
     	.container .span6 { 
     		width: 220px;
     	}
+    	[class*="span"] {
+    		margin-left:0;
+    	}
     	.content{
 	    	a.catlink,
 	    	a.catlink img {
