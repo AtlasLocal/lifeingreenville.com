@@ -44,26 +44,25 @@ body.credits {
     .info {
       width: 95%;
       
-      h3.title {
-        font-size: 2em;
+      h3 {
+        font-size: 27px;
         line-height: 1em;
-        margin-bottom: 4px;
-        position: relative;
-        top: -3px; }
-      
-      ul {
-        margin-bottom: 1.5em;
+        margin: 5px 0 10px;
+/*        position: relative;*/
+/*        top: -3px;*/
+        font-weight: 600;
+        color: #444;
+        text-transform: none;
         
-        li {
-          border-right: 1px solid #bbb;
-          display: inline; }
+        span {
+          font-weight: 400;
+          color: #696969;
+        }
       }
       
-      li.first a {
-        margin-left: 0; }
-      
-      li.last {
-        border: none; }
+      .meta {
+        margin-bottom: 18px;
+      }
       
       p {
         color: #444444;
@@ -93,6 +92,7 @@ body.credits {
   #people {
     clear: both;
     margin-top: 50px;
+    border-bottom: 2px solid #dedede;
     
     li {
       float: left;
