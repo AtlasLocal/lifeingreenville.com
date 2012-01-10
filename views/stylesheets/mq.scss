@@ -273,6 +273,9 @@
 
 		#categories { 
 			background: none;
+			h2 {
+				margin-bottom: 15px;
+			}
 			.span6 .content {
 				padding: 0;
 			}
@@ -284,8 +287,8 @@
 	    		margin: 0 auto;
 	    	}
     	}
-    	.span-one-third.column.alpha {
-    			margin: 0 auto;
+    	.span-one-third {
+    			margin-bottom: 30px;
     	}
     	[class*="span"] {
     		margin-left: 0;
@@ -420,6 +423,9 @@
     
     #categories {
     	background: none;
+    	h2 {
+    		margin-bottom: 25px;
+    	}
     	.container .span6 { 
 
     	}
@@ -431,6 +437,9 @@
     	}
     	[class*="span"] {
     		margin-left: 0;
+    	}
+    	.span-one-third {
+    			margin-bottom: 30px;
     	}
     }
 
