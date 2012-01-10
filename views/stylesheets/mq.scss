@@ -307,6 +307,15 @@
 			header h1 {
 				font-size: 3.85em;
 			}
+			.visiticon {
+				.visit h3 {
+					margin-left: -16px;
+				}
+				img {
+					position: relative;
+					left: -11px;
+				}
+			}
 			article {
 				img#map {
 					width: 300px;
