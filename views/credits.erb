@@ -4,214 +4,196 @@
     <img src="/images/cowork_logo.png" alt="CoWork Greenville Logo"/>
     <div class="info cf">
       <h3 class="title">CoWork</h3>
-      <ul>
-        <li class="first"><a href="http://twitter.com/cowork" title="Follow us on Twitter!" title="_blank">@cowork</a></li>
-        <li><a href="http://coworkgreenville.com" title="Check out more about CoWork">http://coworkgreenville.com</a></li>
-        <li class="last"><a href="mailto:info@coworkgreenville.com" title="Email us (we promise to write back)!">info@coworkgreenville.com</a></li>
-      </ul>
+      <div class="meta">
+        <a href="http://twitter.com/cowork" title="Follow us on Twitter!" title="_blank">@cowork</a>
+        <span> | </span>
+        <a href="http://coworkgreenville.com" title="Check out more about CoWork">http://coworkgreenville.com</a>
+        <span> | </span>
+        <a href="mailto:info@coworkgreenville.com" title="Email us (we promise to write back)!">info@coworkgreenville.com</a>
+      </div>
       <p>commodo nisl non erat ullamcorper dignissim. Curabitur et augue felis, sed volutpat nunc. Vivamus accumsan ligula ac augue lacinia gravida. Constur adipiscing elit. Sed vel libero ante, et faucibus nunc. Vivamus.</p>
     </div><!-- .info -->
+    <% people = [
+      {
+        name: "Matthew Smith",
+        role: "Designer",
+        twitter: "whale",
+        website: "http://squaredeye.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Marco Suarez",
+        role: "Designer",
+        twitter: "marcosuarez",
+        website: "http://marcosuarez.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Andrew Ramos",
+        role: "Designer",
+        twitter: "andrewramos",
+        website: "http://andrewramos.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Jeremy Jantz",
+        role: "Designer",
+        twitter: "jeremyjantz",
+        website: "http://headlampcreative.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Mason Stewart",
+        role: "Developer",
+        twitter: "masondesu",
+        website: "http://masondesu.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Ronnie Taylor",
+        role: "Developer",
+        twitter: "rontec76",
+        website: "http://ronnietaylor.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Mark Johnson",
+        role: "Developer",
+        twitter: "wmdmark",
+        website: "http://duointeractive.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Alan Rodgers",
+        role: "Developer",
+        website: "http://ronnietaylor.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Ryan Wood",
+        role: "Developer",
+        twitter: "ryanwood",
+        website: "http://sourcescape.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Sean Gaffney",
+        role: "Developer",
+        twitter: "seangaffney",
+        website: "http://seangaffney.cc",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Marshall Klickman",
+        role: "Developer",
+        twitter: "mklickman",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Chandler Van De Water",
+        role: "Developer",
+        twitter: "chandlervdw",
+        website: "http://chandlervdw.com",
+        about: "Volunteer"
+      },
+      {
+        name: "Paul Johnson",
+        role: "Content Developer",
+        twitter: "paul_johnson",
+        website: "http://duointeractive.com",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Dodd Caldwell",
+        role: "Content Developer",
+        twitter: "doddcaldwell",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Chris Merritt",
+        role: "Content Developer",
+        twitter: "chrismerritt",
+        website: "http://chrismerritt.tumblr.com",
+        about: "Volunteer"
+      },
+      {
+        name: "Peter Barth",
+        role: "Content Developer",
+        twitter: "peterbarth",
+        website: "http://thenextbig.co",
+        about: "Volunteer"
+      },
+      {
+        name: "Katie Stewart",
+        role: "Content Developer",
+        twitter: "chaithoughts",
+        website: "http://about.me/katiestewart",
+        about: "Volunteer"
+      },
+      {
+        name: "Elizabeth Ramos",
+        role: "Content Developer",
+        twitter: "elizabethramos",
+        website: "http://elizabethramos.com",
+        about: "Volunteer"
+      },
+      {
+        name: "Erin Godbey",
+        role: "Content Developer",
+        twitter: "eringodbey",
+        website: "http://indiecraftparade.com",
+        about: "Volunteer"
+      },
+      {
+        name: "Jamin Jantz",
+        role: "Project Manager",
+        twitter: "jaminjantz",
+        about: "Member of CoWork"
+      },
+      {
+        name: "Matthew Cook",
+        role: "Project Manager",
+        twitter: "mattecook",
+        about: "Member of CoWork"
+      },
+      {
+        name: "TJ &amp; Michelle Getz",
+        role: "Photographers",
+        twitter: "getzcreative",
+        website: "http://getzcreative.com",
+        about: "Volunteers"
+      },
+      {
+        name: "Bryan Martin",
+        role: "Photographer",
+        twitter: "bryanrmartin",
+        about: "Member of CoWork"
+      }
+   ] %>
 
     <ul id="people">
-      <li>
-        <img class="avatar" alt="Photo of Matthew Smith" />
+      <% people.each_with_index do |p, i| %>
+      <li class="span8 <%= i % 2 == 1 ? 'alpha' : '' %>column alpha">
+        <span class="avatar-frame">
+          <img class="avatar" alt="Photo of <%= p[:name] %>" src="http://placehold.it/90/90"/>
+        </span>
         <div class="person_info">
-          <h5>Matthew Smith <span class="role">/ Designer</span></h5>
-          <a href="http://twitter.com/whale" title="Follow Matthew on Twitter" target="_blank">@whale</a>
-          <p>Member of CoWork</p>
+          <h5><%= p[:name] %> <span class="role">/ <%= p[:role] %></span></h5>
+          <div class="meta">
+            <% if p[:twitter] %>
+            <a href="http://twitter.com/<%= p[:twitter] %>" title="Follow <%= p[:name] %> on Twitter" target="_blank">@<%= p[:twitter] %></a>
+            <% end %>
+            <% if p[:website] && p[:twitter] %>
+            <span> | </span>
+            <% end %>
+            <% if p[:website] %>
+            <a href="<%= p[:website] %>" title="<%= p[:name] %>'s Website" target="_blank"><%= p[:website] %></a>
+            <% end %>
+          </div>
+          <p><%= p[:about] %></p>
         </div><!-- .info -->
       </li>
-      <li>
-        <img class="avatar" alt="Photo of Marco Suarez" />
-        <div class="person_info">
-          <h5>Marco Suarez <span class="role">/ Designer</span></h5>
-          <a href="http://twitter.com/marcosuarez" title="Follow Marco on Twitter" target="_blank">@marcosuarez</a>
-          <a href="http://marcosuarez.com" target="_blank" title="Visit Marco's website">http://marcosuarez.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Andrew Ramos" />
-        <div class="person_info">
-          <h5>Andrew Ramos <span class="role">/ Designer</span></h5>
-          <a href="http://twitter.com/andrewramos" title="Follow Andrew on Twitter" target="_blank">@andrewramos</a>
-          <a href="http://andrewramos.com" target="_blank" title="Visit Andrew's website">http://andrewramos.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Jeremy Jantz" />
-        <div class="person_info">
-          <h5>Jeremy Jantz <span class="role">/ Designer</span></h5>
-          <a href="http://twitter.com/jeremyjantz" title="Follow Jeremy on Twitter" target="_blank">@jeremyjantz</a>
-          <a href="http://headlampcreative.com" target="_blank" title="Visit Jeremy's website">http://headlampcreative.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Mason Stewart" />
-        <div class="person_info">
-          <h5>Mason Stewart <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/masondesu" title="Follow Mason on Twitter" target="_blank">@masondesu</a>
-          <a href="http://masondesu.com" target="_blank" title="Visit Mason's website">http://masondesu.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Ronnie Taylor" />
-        <div class="person_info">
-          <h5>Ronnie Taylor <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/rontec76" title="Follow Ronny on Twitter" target="_blank">@rontec76</a>
-          <a href="http://ronnietaylor.com" target="_blank" title="Visit Ronny's website">http://ronnietaylor.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Mark Johnson" />
-        <div class="person_info">
-          <h5>Mark Johnson <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/wmdmark" title="Follow Mark on Twitter" target="_blank">@wmdmark</a>
-          <a href="http://duointeractive.com" target="_blank" title="Visit Mark's website">http://duointeractive.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Alan Rodgers" />
-        <div class="person_info">
-          <h5>Alan Rodgers <span class="role">/ Developer</span></h5>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Ryan Wood" />
-        <div class="person_info">
-          <h5>Ryan Wood <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/ryanwood" title="Follow Ryan on Twitter" target="_blank">@ryanwood</a>
-          <a href="http://sourcescape.com" target="_blank" title="Visit Ryan's website">http://sourcescape.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Sean Gaffney" />
-        <div class="person_info">
-          <h5>Sean Gaffney <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/seangaffney" title="Follow Sean on Twitter" target="_blank">@seangaffney</a>
-          <a href="http://seangaffney.cc" target="_blank" title="Visit Sean's website">http://seangaffney.cc</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Marshall Klickman" />
-        <div class="person_info">
-          <h5>Marshall Klickman <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/mklickman" title="Follow Marshall on Twitter" target="_blank">@mklickman</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Chandler Van De Water" />
-        <div class="person_info">
-          <h5>Chandler Van De Water <span class="role">/ Developer</span></h5>
-          <a href="http://twitter.com/chandlervdw" title="Follow Chandler on Twitter" target="_blank">@chandlervdw</a>
-          <a href="http://chandlervdw.com" target="_blank" title="Visit Chandler's website">http://chandlervdw.com</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Paul Johnson" />
-        <div class="person_info">
-          <h5>Paul Johnson <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/paul_johnson" title="Follow Paul on Twitter" target="_blank">@paul_johnson</a>
-          <a href="http://duointeractive.com" target="_blank" title="Visit Paul's website">http://duointeractive.com</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Dodd Caldwell" />
-        <div class="person_info">
-          <h5>Dodd Caldwell <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/doddcaldwell" title="Follow Dodd on Twitter" target="_blank">@doddcaldwell</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Chris Merritt" />
-        <div class="person_info">
-          <h5>Chris Merritt <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/chrismerritt" title="Follow Chris on Twitter" target="_blank">@chrismerritt</a>
-          <a href="http://chrismerritt.tumblr.com" target="_blank" title="Visit Chris's website">http://chrismerritt.tumblr.com</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Peter Barth" />
-        <div class="person_info">
-          <h5>Peter Barth <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/peterbarth" title="Follow Peter on Twitter" target="_blank">@peterbarth</a>
-          <a href="http://thenextbig.co/greenville.html" target="_blank" title="Visit Peter's website">http://thenextbig.co/greenville.html.com</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Katie Stewart" />
-        <div class="person_info">
-          <h5>Katie Stewart <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/chaithoughts" title="Follow Katie on Twitter" target="_blank">@chaithoughts</a>
-          <a href="http://about.me/katiestewart" target="_blank" title="Visit Katie's website">http://about.me/katiestewart</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Elizabeth Ramos" />
-        <div class="person_info">
-          <h5>Elizabeth Ramos <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/elizabethramos" title="Follow Elizabeth on Twitter" target="_blank">@elizabethramos</a>
-          <a href="http://elizabethramos.com/about" target="_blank" title="Visit Elizabeth's website">http://elizabethramos.com/about</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Erin Godbey" />
-        <div class="person_info">
-          <h5>Erin Godbey <span class="role">/ Content Developer</span></h5>
-          <a href="http://twitter.com/eringodbey" title="Follow Erin on Twitter" target="_blank">@eringodbey</a>
-          <a href="http://indiecraftparade.com" target="_blank" title="Visit Erin's website">http://indiecraftparade.com</a>
-          <p>Volunteer</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Jamin Jantz" />
-        <div class="person_info">
-          <h5>Jamin Jantz <span class="role">/ Project Manager</span></h5>
-          <a href="http://twitter.com/jaminjantz" title="Follow Jamin on Twitter" target="_blank">@jaminjantz</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Matthew Cook" />
-        <div class="person_info">
-          <h5>Matthew Cook <span class="role">/ Project Manager</span></h5>
-          <a href="http://twitter.com/mattecook" title="Follow Matt on Twitter" target="_blank">@mattecook</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of TJ &amp; Michelle Getz" />
-        <div class="person_info">
-          <h5>TJ &amp; Michelle Getz <span class="role">/ Photographers</span></h5>
-          <a href="http://twitter.com/getzcreative" title="Follow Getz Creative on Twitter" target="_blank">@getzcreative</a>
-          <a href="http://getzcreative.com" target="_blank" title="Visit TJ &amp; Michelle's website">http://getzcreative.com</a>
-          <p>Volunteers</p>
-        </div><!-- .info -->
-      </li>
-      <li>
-        <img class="avatar" alt="Photo of Bryan Martin" />
-        <div class="person_info">
-          <h5>Bryan Martin <span class="role">/ Photographer</span></h5>
-          <a href="http://twitter.com/bryanrmartin" title="Follow Bryan on Twitter" target="_blank">@bryanrmartin</a>
-          <p>Member of CoWork</p>
-        </div><!-- .info -->
-      </li>
+      <% end %>
     </ul><!-- #people -->
   </section><!-- .organization#cowork -->
   
