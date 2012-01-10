@@ -3,20 +3,14 @@ category_tagline: 15 Minutes to Anywhere
 category_image: cat-work-cowork.jpg
 banner_sub_headline: Convenient
 banner_tagline: A Refreshing Change Of Pace
-banner_image_caption: A typical day at local coworking space CoWork Greenville.
+banner_image_caption: A typical day at CoWork Greenville - a workspace for independent collaboration
 
 # 15 Minutes To Anywhere
 
-## In Greenville, you can work downtown and live minutes away, affordably.
+## Work in one of "America's Best Downtowns" (Forbes) without breaking the bank.
 
-Lunch meetings downtown are as simple as a 5 minute drive or walk and afterwork entertainment is just as easy.  CoWork Greenville is a great example of this.  CoWork is a collaborative working space 5 minutes from the heart of downtown, filled with technology professionals working and collaborating independently on cutting edge projects.  
+Greenville offers office space for business of all sizes at incredibly competitive rates.  But the real kicker is just how convenient these spaces are.  Imagine walking a few blocks from your office to attend a business lunch while overlooking a waterfall. Or driving 15 minutes to a international airport to pick up your clients as they arrive on a direct Southwest Air flight from New York. Then putting them up in one of the Greenville's charming yet modern hotels.  
 
+For independent workers, Greenville boasts several great collaborative workspaces. The NEXT Center houses a wide array of high impact technology startups, contractors, and established business. CoWork Greenville offers spaces by the day, week, or month to those in the creative and web industries.
 
-![My Image Text](/images/article-images/Riverwalk.jpg "Downtown Greenville")
-When visitors come to town for meetings they can cheaply stay within walking distance to office spaces and downtown attractions.  There is also a just the right size airport 15 minutes from downtown with service by Southwest Air for cheap flights all over the country.  
-
-If you decide to live outside of town there is rarely traffic into and out of town and houses are priced very affordability.
-
-* visitors - Southwest, airport nearby, affordable stay, good location
-* spaces-  affordability, availability, collaborative, good location
-* short commutes
+![My Image Text](/images/article-images/RiverWalk.jpg "Downtown Greenville")
