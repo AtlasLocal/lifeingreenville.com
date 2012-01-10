@@ -3,6 +3,13 @@ body.credits {
 /*  a {
     border-bottom: none;
     text-decoration: underline; }*/
+    
+  h2 {
+    color: #d5cc25;
+    font-size: 3em;
+    padding-bottom: 50px;
+    font-weight: 500;
+  }
 
   ul {
     list-style: none;
@@ -22,6 +29,7 @@ body.credits {
       font-size: 6em;
       margin-left: 0;
       padding-bottom: 20px;
+      font-weight: 700;
       border-bottom: 7px double #dedede;
     }
     
@@ -42,7 +50,7 @@ body.credits {
       float: left; }
     
     .info {
-      width: 95%;
+/*      width: 95%;*/
       
       h3 {
         font-size: 27px;
@@ -164,7 +172,7 @@ body.credits {
     background: transparent; }
     
   #indiecraft {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
   }
   
 }
