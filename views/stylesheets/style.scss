@@ -70,13 +70,16 @@ ul li, ol li {
   color: #404040;
 }
 
-
-#video.rnd-1 {
+#video {
 	margin-top: 0px;
-	margin-right: -80px;
+/*  margin-right: -80px;*/
 	min-height: 600px;
 	background: url(/images/banners/home-lg.jpg) no-repeat center center;
 	background-size: cover;
+}
+
+#video.rnd-1 {
+	background: url(/images/banners/home-lg.jpg) no-repeat center center;
 }
 
 #video.rnd-2 {
@@ -88,12 +91,10 @@ ul li, ol li {
 }
 
 #video.rnd-4 {
-  // not used atm
 	background: url(/images/banners/home-rainbow-lg.jpg) no-repeat center center;
 }
 
 #video.rnd-5 {
-  // not used atm
 	background: url(/images/banners/home-wall-lg.jpg) no-repeat center center;
 }
 
