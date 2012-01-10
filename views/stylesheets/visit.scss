@@ -35,6 +35,7 @@ body.visit{
 			color: #98c642;
 		}
 		img {
+      margin-top: 0;
 			margin-bottom: 48px;
 		}
 		p {
@@ -43,7 +44,8 @@ body.visit{
 		p.pfirst {
 			font-family: "kulturista-web", serif;
 			font-weight: 400;
-			font-size: 14px;
+			font-size: 18px;
+      line-height: 27px;
 		}
     
     ul {
@@ -58,6 +60,18 @@ body.visit{
     li {
       margin-left: 0;
     }
+    
+    
+    &#weekend {
+      padding-top: 50px;
+      
+      
+      h2 {
+        font-size: 35px;
+      }
+      
+    }
+    
 	}
 	
 	.visitcon{
@@ -91,7 +105,6 @@ body.visit{
 		
 		img{
 			margin-left: 30px;
-			border-radius: 4px;
 		}
 		
 		.visit{
@@ -132,4 +145,23 @@ body.visit{
 			
 		}
 	}
+  
+  #more {
+    padding: 50px 0 100px;
+      
+    h3 {
+      margin-bottom: 15px;
+      font-size: 35px;
+      color: #416331;
+      text-transform: none;
+      font-weight: 600;
+    }
+    
+    h4 {
+      color: #98C642;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
 }
