@@ -16,6 +16,9 @@ $(document).ready(function() {
   if ($.browser.mobile)
     $("a#visit").css("position", "absolute")
 
+  if ($.browser.mobile || ios)
+    $("#footer").css("position", "static")
+
   if (!$.browser.mobile && !ios) {
     var footerHeight =  $('#footer_nav').height();
     $('#footer_nav').hide();
