@@ -113,11 +113,7 @@
     #categories .span6 .content { padding: 0; }
 
 		#footer {
-		  position: inherit;
-		  bottom:inherit;
-		  left:inherit;
-		  z-index:inherit;
-		  width:inherit;
+		  position: static;
 			#footer_nav {
 				.container .span3 {
 					width: 100px;
