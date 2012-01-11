@@ -38,8 +38,16 @@ h3 {
 }
 
 .main {
-//	background-color: transparent;
-	background-color: #F9F9F9;
+  position: relative;
+  background: #F9F9F9 url('/images/bg-texture.png') repeat top left;
+  
+  .bg-fade {
+    position: absolute;
+    bottom: -100px;
+    height: 100px;
+    width: 100%;
+    background: url('/images/fade.png') repeat-x top left;
+  }
 }
 
 body.home .main {
