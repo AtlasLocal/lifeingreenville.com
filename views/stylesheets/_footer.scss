@@ -2,8 +2,8 @@
 @import "compass/css3/transform";
 
 #footer {
-  background: #fff;
-  border-top: 1px solid #ccc;
+  background: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
   position:fixed;
@@ -11,8 +11,8 @@
   left:0;
   z-index:2000;
   width:100%;
-  @include transition(all);
-  @include transition-duration(0.4s);
+
+
   
   h3 {
     color: #99c745;
@@ -32,7 +32,7 @@
     color: #97c93c;
     font-weight: bold;
     cursor: pointer;
-    
+    background-color: #fff;
     .container {
       position: relative;
     }
@@ -70,6 +70,7 @@
   }
 
   #footer_nav {
+  	background:#fff;
     .row {
       border-top: 6px double #e5e5e5;
       border-bottom: 6px double #e5e5e5;
