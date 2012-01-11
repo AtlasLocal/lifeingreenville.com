@@ -2,7 +2,7 @@ class Article
   attr_reader :body, :metadata
   
   def self.parse(file)
-    contents = File.open(file).read
+    contents = File.open(file, "r:UTF-8").read
     
     first_paragraph, remaining = contents.split(/\r?\n\r?\n/, 2)
     metadata = Hash.new
