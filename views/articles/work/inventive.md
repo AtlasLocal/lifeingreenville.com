@@ -20,5 +20,5 @@ Great ideas don't just come to Greenville, they're born here too. Attend TEDx or
 
 * [Zaarly](http://www.zaarly.com) - creating a new way for individuals to buy and sell
 * [Proterra](http://proterra.com) - developing the green, “bus of the future”
-* [The Next Big Thing](http://thenextbig.co) -  a accelerator program providing seed funding and mentorship to promising tech startups
+* [The Next Big Thing](http://thenextbig.co) -  an accelerator program providing seed funding and mentorship to promising tech startups
 * [Bellstrike](http://bellstrike.com) - providing instant websites for nonprofits
