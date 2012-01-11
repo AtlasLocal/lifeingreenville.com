@@ -151,25 +151,25 @@ body.not-found #video {
   text-transform: uppercase;
 }
 
-//body.work {
-//	#wrapper {
-//		background: url('/images/work-footer-illo.png');
-//		background-attachment: fixed;
-//		background-position: bottom center;
-//		background-repeat: no-repeat;
-//		padding-bottom: 200px;
-//	}
-//}
+body.work {
+  #wrapper {
+    background: url('/images/work-footer-illo.png');
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+  }
+}
 
-//body.life {
-//	#wrapper {
-//		background: url('/images/life-footer-illo.png');
-//		background-attachment: fixed;
-//		background-position: bottom center;
-//		background-repeat: no-repeat;
-//		padding-bottom: 200px;
-//	}
-//}
+body.life {
+  #wrapper {
+    background: url('/images/life-footer-illo.png');
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+  }
+}
 
 @import "tertiary";
 @import "banners";
