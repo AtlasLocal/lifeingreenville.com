@@ -34,7 +34,7 @@ class Article
       articles << article
     end
     
-    articles.sort! { |a,b| a.title.downcase <=> b.title.downcase }
+    articles.sort_by! { |a| a.title }
   end
   
   def initialize(body, metadata = {})
