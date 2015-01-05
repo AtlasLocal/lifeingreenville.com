@@ -10,7 +10,7 @@ GEM
     compass_twitter_bootstrap (0.1.7)
       compass
     daemons (1.1.4)
-    eventmachine (0.12.10)
+    eventmachine (1.0.4)
     fssm (0.2.7)
     rack (1.4.0)
     rack-protection (1.2.0)
