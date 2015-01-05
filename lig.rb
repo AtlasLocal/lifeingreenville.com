@@ -89,11 +89,11 @@ error do
 end
 
 helpers do
-  
+
   def render_aside
   	if File.exist?("views/articles/#{params[:category]}/#{params[:name]}.md")
       html = '<aside class="row span4">'
-      
+
       # put together the sub nav for other articles in this category
 	    if params[:name]
 	      html << '<div class="sidenav">'
@@ -111,7 +111,7 @@ helpers do
         html << '</ul>'
         html << '</div>'
 	    end
-      
+
       # get the Aside content
 	    if File.exist?("views/asides/#{params[:category]}/#{params[:name]}.md")
 	      html << markdown("asides/#{params[:category]}/#{params[:name]}".to_sym)
@@ -119,7 +119,7 @@ helpers do
       html << '</aside>'
     end
   end
-  
+
   def render_breadcrumb
     html = '<a href="/">Home</a>'
     if params[:name]
@@ -129,5 +129,5 @@ helpers do
       html << " / <span class='active'>#{params[:category].capitalize}</span>"
     end
   end
-  
+
 end
